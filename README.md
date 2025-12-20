@@ -1,151 +1,1458 @@
-# 인공어 제작중
+{
+  "golk": {
+    "뜻": "고마워"
+  },
+  "solk": {
+    "뜻": "미안해"
+  },
+  "hu": {
+    "뜻": "그"
+  },
+  "ti": {
+    "뜻": "그것"
+  },
+  "su": {
+    "뜻": "그녀"
+  },
+  "tin": {
+    "뜻": "그들"
+  },
+  "i": {
+    "뜻": "나"
+  },
+  "ol": {
+    "뜻": "너"
+  },
+  "al": {
+    "뜻": "우리"
+  },
+  "epa": {
+    "뜻": "이다"
+  },
+  "lenu": {
+    "뜻": "가다",
+    "변형": [
+      "lenul : 가게",
+      "lenug : 가는",
+      "lenuk : 간",
+      "lenur : 가서",
+      "lenud : 가고",
+      "lenut : 가면"
+    ]
+  },
+  "thau": {
+    "뜻": "가르치다",
+    "변형":[
+      "thaul : 가르치게",
+      "thaug : 가르치는",
+      "thauk : 가르친",
+      "thaur : 가르쳐서",
+      "thaud : 가르치고",
+      "thaut : 가르치면"
+    ]
+  },
+  "lanu": {
+    "뜻": "걷다",
+    "변형": [
+      "lanul : 걷게",
+      "lanug : 걷는",
+      "lanuk : 걸은",
+      "lanur : 걸어서",
+      "lanud : 걷고",
+      "lanut : 걸으면"
+    ]
+  },
+  "atiu": {
+    "뜻": "기다리다",
+    "변형":[
+      "atiul : 기다리게",
+      "atiug : 기다리는",
+      "atiuk : 기다린",
+      "atiur : 기다려서",
+      "atiud : 기다리고",
+      "atiut : 기다리면"
+    ]
+  },
+  "hyoanu": {
+    "뜻": "기르다",
+    "변형":[
+      "hyoanul : 기르게",
+      "hyoanug : 기르는",
+      "hyoanuk : 기른",
+      "hyoanur : 길러서",
+      "hyoanud : 기르고",
+      "hyoanut : 기르면"
+    ]
+  },
+  "ekou": {
+    "뜻": "깨다",
+    "설명": "잠에서 깨다. 무언가를 깨뜨리다. 등등 전부 다 사용. 문맥 고려해야한다.",
+    "변형":[
+      "ekoul : 깨게",
+      "ekoug : 깨는",
+      "ekouk : 깬",
+      "ekour : 깨서",
+      "ekoud : 깨고",
+      "ekout : 깨면"
+    ]
+  },
+  "allu": {
+    "뜻": "날다",
+    "변형":[
+      "allul : 날게",
+      "allug : 나는",
+      "alluk : 난",
+      "allur : 날아서",
+      "allud : 날고",
+      "allut : 날면"
+    ]
+  },
+  "elonu": {
+    "뜻": "녹이다",
+    "변형":[
+      "elonul : 녹이게",
+      "elonug : 녹이는",
+      "elonuk : 녹인",
+      "elonur : 녹여서",
+      "elonud : 녹이고",
+      "elonut : 녹이면"
+    ]
+  },
+  "senolu": {
+    "뜻": "놀다",
+    "변형":[
+      "senolul : 놀게",
+      "senolug : 노는",
+      "senoluk : 논",
+      "senolur : 놀아서",
+      "senolud : 놀고",
+      "senolut : 놀면"
+    ]
+  },
+  "sulu": {
+    "뜻": "놀라다",
+    "변형":[
+      "sulul : 놀라게",
+      "sulug : 놀라는",
+      "suluk : 놀란",
+      "sulur : 놀라서",
+      "sulud : 놀라고",
+      "sulut : 놀라면"
+    ]
+  },
+  "esisu": {
+    "뜻": "누르다",
+    "변형":[
+      "esisul : 누르게",
+      "esisug : 누르는",
+      "esisuk : 누른",
+      "esisur : 눌러서",
+      "esisud : 누르고",
+      "esisut : 누르면"
+    ]
+  },
+  "sionu": {
+    "뜻": "느끼다",
+    "변형":[
+      "sionul : 느끼게",
+      "sionug : 느끼는",
+      "sionuk : 느낀",
+      "sionur : 느껴서",
+      "sionud : 느끼고",
+      "sionut : 느끼면"
+    ]
+  },
+  "danteu": {
+    "뜻": "닫다",
+    "변형":[
+      "danteul : 닫게",
+      "danteug : 닫는",
+      "danteuk : 닫은",
+      "danteur : 닫아서",
+      "danteud : 닫고",
+      "danteut : 닫으면"
+    ]
+  },
+  "slanu": {
+    "뜻": "달리다",
+      "변형":[
+      "slanul : 달리게",
+      "slanug : 달리는",
+      "slanuk : 달린",
+      "slanur : 달려서",
+      "slanud : 달리고",
+      "slanut : 달리면"
+    ]
+  },
+  "thenu": {
+    "뜻": "당기다",
+      "변형":[
+      "thenul : 당기게",
+      "thenug : 당기는",
+      "thenuk : 당긴",
+      "thenur : 당겨서",
+      "thenud : 당기고",
+      "thenut : 당기면"
+    ]
+  },
+  "shunu": {
+    "뜻": "던지다",
+      "변형":[
+      "shunul : 던지게",
+      "shunug : 던지는",
+      "shunuk : 던진",
+      "shunur : 던져서",
+      "shunud : 던지고",
+      "shunut : 던지면"
+    ]
+  },
+  "emotu": {
+    "뜻": "돌보다",
+      "변형":[
+      "emotul : 돌보게",
+      "emotug : 돌보는",
+      "emotuk : 돌본",
+      "emotur : 돌봐서",
+      "emotud : 돌보고",
+      "emotut : 돌보면"
+    ]
+  },
+  "yaeneu": {
+    "뜻": "돕다",
+      "변형":[
+      "yaeneul : 돕게",
+      "yaeneug : 돕는",
+      "yaeneuk : 도운",
+      "yaeneur : 도와서",
+      "yaeneud : 돕고",
+      "yaeneut : 도우면"
+    ]
+  },
+  "ungiu": {
+    "뜻": "듣다",
+      "변형":[
+      "ungiul : 듣게",
+      "ungiug : 듣는",
+      "ungiuk : 들은",
+      "ungiur : 들어서",
+      "ungiud : 듣고",
+      "ungiut : 들으면"
+    ]
+  },
+  "luanu": {
+    "뜻": "들다",
+    "변형":[
+      "luanul : 들게",
+      "lunaug : 드는",
+      "luanuk : 든",
+      "luanur : 들어서",
+      "luanud : 들고",
+      "luanut : 들면"
+    ]
+  },
+  "lolenu": {
+    "뜻": "따라가다",
+    "변형":[
+      "lolenul : 따라가게",
+      "lolenug : 따라가는",
+      "lolenuk : 따라간",
+      "lolenur : 따라가서",
+      "lolenud : 따라가고",
+      "lolenut : 따라가면"
+    ]
+  },
+  "lotenu": {
+    "뜻": "따라하다",
+      "변형":[
+      "lotenul : 따라하게",
+      "lotenug : 따라하는",
+      "lotenuk : 따라한",
+      "lotenur : 따라해서",
+      "lotenud : 따라하고",
+      "lotenut : 따라하면"
+    ]
+  },
+  "lommu": {
+    "뜻": "따르다",
+    "설명": "사람을 따르다",
+      "변형":[
+      "lommul : 따르게",
+      "lommug : 따르는",
+      "lommuk : 따른",
+      "lommur : 따라서",
+      "lommud : 따르고",
+      "lommut : 따르면"
+    ]
+  },
+  "lonnu": {
+    "뜻": "따르다",
+    "설명": "액체를 따른다",
+      "변형":[
+      "lonnul : 따르게",
+      "lonnug : 따르는",
+      "lonnuk : 따른",
+      "lonnur : 따라서",
+      "lonnud : 따르고",
+      "lonnut : 따르면"
+    ]
+  },
+  "donteu": {
+    "뜻": "떨어지다",
+      "변형":[
+      "donteul : 떨어지게",
+      "donteug : 떨어지는",
+      "donteuk : 떨어진",
+      "donteur : 떨어져서",
+      "donteud : 떨어지고",
+      "donteut : 떨어지면"
+    ]
+  },
+  "tlenu": {
+    "뜻": "뛰다",
+      "변형":[
+      "tlenul : 뛰게",
+      "tlenug : 뛰는",
+      "tlenuk : 뛴",
+      "tlenur : 뛰어서",
+      "tlenud : 뛰고",
+      "tlenut : 뛰면"
+    ]
+  },
+  "eminu": {
+    "뜻": "마시다",
+      "변형":[
+      "eminul : 마시게",
+      "eminug : 마시는",
+      "eminuk : 마신",
+      "eminur : 마셔서",
+      "eminud : 마시고",
+      "eminut : 마시면"
+    ]
+  },
+  "immiu": {
+    "뜻": "만나다",
+      "변형":[
+      "immiul : 만나게",
+      "immiug : 만나는",
+      "immiuk : 만난",
+      "immiur : 만나서",
+      "immiud : 만나고",
+      "immiut : 만나면"
+    ]
+  },
+  "hyasu": {
+    "뜻": "만들다",
+      "변형":[
+      "hyasul : 만들게",
+      "hyasug : 만드는",
+      "hyasuk : 만든",
+      "hyasur : 만들어서",
+      "hyasud : 만들고",
+      "hyasut : 만들면"
+    ]
+  },
+  "selu": {
+    "뜻": "만지다",
+      "변형":[
+      "selul : 만지게",
+      "selug : 만지는",
+      "seluk : 만진",
+      "selur : 만져서",
+      "selud : 만지고",
+      "selut : 만지면"
+    ]
+  },
+  "piu": {
+    "뜻": "말하다",
+      "변형":[
+      "piul : 말하게",
+      "piug : 말하는",
+      "piuk : 말한",
+      "piur : 말해서",
+      "piud : 말하고",
+      "piut : 말하면"
+    ]
+  },
+  "gyonu": {
+    "뜻": "먹다",
+      "변형":[
+      "gyonul : 먹게",
+      "gyonug : 먹는",
+      "gyonuk : 먹은",
+      "gyonur : 먹어서",
+      "gyonud : 먹고",
+      "gyonut : 먹으며"
+    ]
+  },
+  "yonnu": {
+    "뜻": "믿다",
+      "변형":[
+      "yonnul : 믿게",
+      "yonnug : 믿는",
+      "yonnuk : 믿은",
+      "yonnur : 믿어서",
+      "yonnud : 믿고",
+      "yonnut : 믿으며"
+    ]
+  },
+  "genneu": {
+    "뜻": "밀다",
+      "변형":[
+      "genneul : 밀게",
+      "genneug : 미는",
+      "genneuk : 민",
+      "genneur : 밀어서",
+      "genneud : 밀고",
+      "genneut : 밀며"
+    ]
+  },
+  "supalu": {
+    "뜻": "바꾸다",
+      "변형":[
+      "supalul : 바꾸게",
+      "supalug : 바꾸는",
+      "supaluk : 바꾼",
+      "supalur : 바꿔서",
+      "supalud : 바꾸고",
+      "supalut : 바꾸며"
+    ]
+  },
+  "taku": {
+    "뜻": "받다",
+      "변형":[
+      "takul : 받게",
+      "takug : 받는",
+      "takuk : 받은",
+      "takur : 받아서",
+      "takud : 받고",
+      "takut : 받으며"
+    ]
+  },
+  "loku": {
+    "뜻": "보다",
+      "변형":[
+      "lokul : 보게",
+      "lokug : 보는",
+      "lokuk : 본",
+      "lokur : 보아서",
+      "lokud : 보고",
+      "lokut : 보며"
+    ]
+  },
+  "pomnu": {
+    "뜻": "부수다",
+      "변형":[
+      "pomnul : 부수게",
+      "pomnug : 부수는",
+      "pomnuk : 부순",
+      "pomnur : 부숴서",
+      "pomnud : 부수고",
+      "pomnut : 부수며"
+    ]
+  },
+  "painu": {
+    "뜻": "빛나다",
+      "변형":[
+      "painul : 빛나게",
+      "painug : 빛나는",
+      "painuk : 빛난",
+      "painur : 빛나서",
+      "painud : 빛나고",
+      "painut : 빛나며"
+    ]
+  },
+  "itinu": {
+    "뜻": "살다",
+      "변형":[
+      "itinul : 살게",
+      "itinug : 사는",
+      "itinuk : 산",
+      "itinur : 살아서",
+      "itinud : 살고",
+      "itinut : 살며"
+    ]
+  },
+  "epepu": {
+    "뜻": "서다",
+      "변형":[
+      "epepul : 서게",
+      "epepul : 서는",
+      "epepuk : 선",
+      "epepur : 서서",
+      "epepud : 서고",
+      "epeput : 서며"
+    ]
+  },
+  "ellu": {
+    "뜻": "소리 지르다",
+      "변형":[
+      "ellul : 소리 지르게",
+      "ellug : 소리 지르는",
+      "elluk : 소리 지른",
+      "ellur : 소리 질러서",
+      "ellud : 소리 지르고",
+      "ellut : 소리 지르며"
+    ]
+  },
+  "inhaeu": {
+    "뜻": "속삭이다",
+      "변형":[
+      "inhaeul : 속삭이게",
+      "inhaeug : 속삭이는",
+      "inhaeuk : 속삭인",
+      "inhaeur : 속삭여서",
+      "inhaeud : 속삭이고",
+      "inhaeut : 속삭이며"
+    ]
+  },
+  "syenu": {
+    "뜻": "숨다",
+      "변형":[
+      "syenul : 숨게",
+      "syenug : 숨는",
+      "syenuk : 숨은",
+      "syenur : 숨어서",
+      "syenud : 숨고",
+      "syenut : 숨으며"
+    ]
+  },
+  "imyenu": {
+    "뜻": "쉬다",
+      "변형":[
+      "imyenul : 쉬게",
+      "imyenug : 쉬는",
+      "imyenuk : 쉰",
+      "imyenur : 쉬어서",
+      "imyenud : 쉬고",
+      "imyenut : 쉬며"
+    ]
+  },
+  "antiu": {
+    "뜻": "심다",
+      "변형":[
+      "antiul : 심게",
+      "antiug : 심는",
+      "antiuk : 심은",
+      "antiur : 심어서",
+      "antiud : 심고",
+      "antiut : 심으며"
+    ]
+  },
+  "pionu": {
+    "뜻": "쓰다",
+    "설명": "어딘가에 글을 쓰다",
+      "변형":[
+      "pionul : 쓰게",
+      "pionug : 쓰는",
+      "pionuk : 쓴",
+      "pionur : 써서",
+      "pionud : 쓰고",
+      "pionut : 쓰며"
+    ]
+  },
+  "ku": {
+    "뜻": "앉다",
+      "변형":[
+      "kul : 앉게",
+      "kug : 앉는",
+      "kuk : 앉은",
+      "kur : 앉아서",
+      "kud : 앉고",
+      "kut : 앉으며"
+    ]
+  },
+  "tanhu": {
+    "뜻": "얼리다",
+      "변형":[
+      "tanhul : 얼리게",
+      "tanhug : 얼리는",
+      "tanhuk : 얼린",
+      "tanhur : 얼려서",
+      "tanhud : 얼리고",
+      "tanhut : 얼리며"
+    ]
+  },
+  "einu": {
+    "뜻": "없다",
+      "변형":[
+      "einul : 없게",
+      "einuk : 없는",
+      "einur : 없어서",
+      "einud : 없고",
+      "einut : 없으며"
+    ]
+  },
+  "ainu": {
+    "뜻": "있다",
+      "변형":[
+      "ainul : 있게",
+      "ainuk : 있는",
+      "ainur : 있어서",
+      "ainud : 있고",
+      "ainut : 있으며"
+    ]
+  },
+  "tendau": {
+    "뜻": "열다",
+      "변형":[
+      "tendaul : 열게",
+      "tendaug : 여는",
+      "tendauk : 연",
+      "tendaur : 열어서",
+      "tendaud : 열고",
+      "tendaut : 열며"
+    ]
+  },
+  "esentu": {
+    "뜻": "울다",
+      "변형":[
+      "esentul : 울게",
+      "esentug : 우는",
+      "esentuk : 운",
+      "esentur : 울어서",
+      "esentud : 울고",
+      "esentut : 울며"
+    ]
+  },
+  "stenu": {
+    "뜻": "울부짖다",
+      "변형":[
+      "stenul : 울부짖게",
+      "stenug : 울부짖는",
+      "stenuk : 울부짖은",
+      "stenur : 울부짖어서",
+      "stenud : 울부짖고",
+      "stenut : 울부짖으며"
+    ]
+  },
+  "niopu": {
+    "뜻": "읽다",
+      "변형":[
+      "niopul : 읽게",
+      "niopug : 읽는",
+      "niopuk : 읽은",
+      "niopur : 읽어서",
+      "niopud : 읽고",
+      "nioput : 읽으며"
+    ]
+  },
+  "oltinu": {
+    "뜻": "입다",
+      "변형":[
+      "oltinul : 입게",
+      "oltinug : 입는",
+      "oltinuk : 입은",
+      "oltinur : 입어서",
+      "oltinud : 입고",
+      "oltinut : 입으며"
+    ]
+  },
+  "umulu": {
+    "뜻": "잊다",
+    "변형": [
+      "umulul : 잊게",
+      "umulug : 잊는",
+      "umuluk : 잊은",
+      "umulur : 잊어서",
+      "umulud : 잊고",
+      "umulut : 잊으며"
+    ]
+  },
+  "dilunu": {
+    "뜻": "어둡다",
+    "변형": [
+      "dilunul : 어둡게",
+      "dilunuk : 어두운",
+      "dilunur : 어두워서",
+      "dilunud : 어둡고",
+      "dilunut : 어두우면"
+    ]
+  },
+  "honnu": {
+    "뜻": "자다",
+    "변형": [
+      "honnul : 자게",
+      "honnug : 자는",
+      "honnuk : 잔",
+      "honnur : 자서",
+      "honnud : 자고",
+      "honnut : 자면"
+    ]
+  },
+  "olteu": {
+    "뜻": "자라다",
+    "변형": [
+      "olteul : 자라게",
+      "olteug : 자라는",
+      "olteuk : 자란",
+      "olteur : 자라서",
+      "olteud : 자라고",
+      "olteut : 자라면"
+    ]
+  },
+  "uteku": {
+    "뜻": "자르다",
+    "변형": [
+      "utekul : 자르게",
+      "utelkug : 자르는",
+      "utekuk : 자른",
+      "utekur : 잘라서",
+      "utekud : 자르고",
+      "utekut : 자르면"
+    ]
+  },
+  "ennou": {
+    "뜻": "잡다",
+    "변형": [
+      "ennoul : 잡게",
+      "ennoug : 잡는",
+      "ennouk : 잡은",
+      "ennour : 잡아서",
+      "ennoud : 잡고",
+      "ennout : 잡으면"
+    ]
+  },
+  "ontou": {
+    "뜻": "주다",
+    "변형": [
+      "ontoul : 주게",
+      "ontoug : 주는",
+      "ontouk : 준",
+      "ontour : 주어서",
+      "ontoud : 주고",
+      "ontout : 주면"
+    ]
+  },
+  "otinu": {
+    "뜻": "죽다",
+    "변형": [
+      "otinul : 죽게",
+      "otinug : 죽는",
+      "otinuk : 죽은",
+      "otinur : 죽어서",
+      "otinud : 죽고",
+      "otinut : 죽으면"
+    ]
+  },
+  "aku": {
+    "뜻": "차다",
+    "변형": [
+      "akul : 차게",
+      "akug : 차는",
+      "akuk : 찬",
+      "akur : 차서",
+      "akud : 차고",
+      "akut : 차면"
+    ]
+  },
+  "galhu": {
+    "뜻": "태우다",
+    "변형": [
+      "galhul : 태우게",
+      "galhuk : 태운",
+      "galhur : 태워서",
+      "galhud : 태우고",
+      "galhut : 태우면"
+    ]
+  },
 
-## 음운 (Phonology)
-| 타입 | 음성 |
-|---:|:---|
-| 모음 | a, i, u, e, o, uo, ou|
-| 자음 | p, t, k(kh), c, m, n, s(sh), r, l , v|
+  "pamunu": {
+    "뜻": "튀기다",
+      "변형":[
+      "pamunul : 튀기게",
+      "pamunug : 튀기는",
+      "pamunuk : 튀긴",
+      "pamunur : 튀겨서",
+      "pamunud : 튀기고",
+      "pamunut : 튀기며"
+    ]
+  },
+  "dullu": {
+    "뜻": "팔다",
+      "변형":[
+      "dullul : 팔게",
+      "dullug : 파는",
+      "dulluk : 판",
+      "dullur : 팔아서",
+      "dullud : 팔고",
+      "dullut : 팔며"
+    ]
+  },
+  "eolpu": {
+    "뜻": "흐르다",
+      "변형":[
+      "eolpul : 흐르게",
+      "eolpug : 흐르는",
+      "eolpuk : 흐른",
+      "eolpur : 흘러서",
+      "eolpud : 흐르고",
+      "eolput : 흐르며"
+    ]
+  },
+  "(a) akaun (b)": {
+    "뜻": "(a) 분의 (b)"
+  },
+  "otlan": {
+    "뜻": "가게"
+  },
+  "adomasn": {
+    "뜻": "가구"
+  },
+  "kadasn": {
+    "뜻": "가방"
+  },
+  "ipon": {
+    "뜻": "가스"
+  },
+  "papun": {
+    "뜻": "가을"
+  },
+  "lonnyen": {
+    "뜻": "가정"
+  },
+  "nyen": {
+    "뜻": "가족"
+  },
+  "muko": {
+    "뜻": "가죽"
+  },
+  "imu": {
+    "뜻": "가축"
+  },
+  "iloen": {
+    "뜻": "간호사"
+  },
+  "ildun": {
+    "뜻": "강"
+  },
+  "kamu": {
+    "뜻": "개"
+  },
+  "asotu": {
+    "뜻": "갯수"
+  },
+  "tuen": {
+    "뜻": "개인"
+  },
+  "edosn": {
+    "뜻": "거울"
+  },
+  "lisan": {
+    "뜻": "건물"
+  },
+  "uipun": {
+    "뜻": "겨울"
+  },
+  "pon": {
+    "뜻": "감정"
+  },
+  "dalin": {
+    "뜻": "검정"
+  },
+  "poen": {
+    "뜻": "경찰"
+  },
+  "akanun": {
+    "뜻": "계산"
+  },
+  "akausn": {
+    "뜻": "계산기"
+  },
+  "pun": {
+    "뜻": "계절"
+  },
+  "apan": {
+    "뜻": "계획"
+  },
+  "aplon": {
+    "뜻": "고기"
+  },
+  "omu": {
+    "뜻": "고양이"
+  },
+  "pisan": {
+    "뜻": "고향"
+  },
+  "helemu": {
+    "뜻": "곤충"
+  },
+  "akapun": {
+    "뜻": "곱",
+    "설명": "곱하기. 곱셈"
+  },
+  "otein": {
+    "뜻": "공격"
+  },
+  "eloun": {
+    "뜻": "공기"
+  },
+  "esain": {
+    "뜻": "공부"
+  },
+  "sakan": {
+    "뜻": "공원"
+  },
+  "atin": {
+    "뜻": "과목"
+  },
+  "seatin": {
+    "뜻": "과학"
+  },
+  "lotan": {
+    "뜻": "광장"
+  },
+  "moton": {
+    "뜻": "교통수단"
+  },
+  "uklun": {
+    "뜻": "구름"
+  },
+  "pimin": {
+    "뜻": "구입"
+  },
+  "lanen": {
+    "뜻": "국민"
+  },
+  "osmen": {
+    "뜻": "군인"
+  },
+  "pyotyon": {
+    "뜻": "극단",
+    "설명": "극단/극도"
+  },
+  "pamun": {
+    "뜻": "기름"
+  },
+  "siteun": {
+    "뜻": "기술"
+  },
+  "lemnin": {
+    "뜻": "기억"
+  },
+  "usan": {
+    "뜻": "길",
+    "설명": "길/거리"
+  },
+  "ko": {
+    "뜻": "껍질"
+  },
+  "silgon": {
+    "뜻": "그물",
+    "설명": "그물/면"
+  },
+  "plun": {
+    "뜻": "꽃"
+  },
+  "demin": {
+    "뜻": "꿈"
+  },
+  "akadun": {
+    "뜻": "나누기",
+    "설명": "나누기/나눗셈"
+  },
+  "namun": {
+    "뜻": "나무"
+  },
+  "ithun": {
+    "뜻": "날씨"
+  },
+  "silin": {
+    "뜻": "남색"
+  },
+  "meon": {
+    "뜻": "냄새"
+  },
+  "tanhusn": {
+    "뜻": "냉장고"
+  },
+  "lyon": {
+    "뜻": "년",
+    "설명": "날짜"
+  },
+  "milon": {
+    "뜻": "노동"
+  },
+  "milen": {
+    "뜻": "노동자"
+  },
+  "nolin": {
+    "뜻": "노란색"
+  },
+  "amon": {
+    "뜻": "농사"
+  },
+  "amonan": {
+    "뜻": "농장"
+  },
+  "otlaen": {
+    "뜻": "뇌"
+  },
+  "elaen": {
+    "뜻": "눈",
+    "설명": "동물의 눈"
+  },
+  "annun": {
+    "뜻": "눈",
+    "설명": "하늘에서 내리는 눈"
+  },
+  "oulaen": {
+    "뜻": "다리",
+    "설명": "동물의 다리"
+  },
+  "dulan": {
+    "뜻": "다리",
+    "설명": "건너는 다리"
+  },
+  "legon": {
+    "뜻": "모임",
+    "설명": "모임/단체"
+  },
+  "mulan": {
+    "뜻": "달",
+    "설명": "위성 '달'과 날짜 '달'의 의미를 동시에 가짐"
+  },
+  "ahimu": {
+    "뜻": "닭"
+  },
+  "elpin": {
+    "뜻": "대답"
+  },
+  "dlolaen": {
+    "뜻": "대장",
+    "설명": "몸속 장기"
+  },
+  "taen": {
+    "뜻": "대장",
+    "설명": "사람들이 모인 곳의 우두머리"
+  },
+  "loman": {
+    "뜻": "도로"
+  },
+  "olgamu": {
+    "뜻": "도마뱀"
+  },
+  "oten": {
+    "뜻": "도발"
+  },
+  "laonan": {
+    "뜻": "도서관"
+  },
+  "hian": {
+    "뜻": "도시"
+  },
+  "hitan": {
+    "뜻": "국가"
+  },
+  "myon": {
+    "뜻": "돈"
+  },
+  "itun": {
+    "뜻": "돌"
+  },
+  "mu": {
+    "뜻": "동물"
+  },
+  "khimu": {
+    "뜻": "돼지"
+  },
+  "amposn": {
+    "뜻": "등불"
+  },
+  "hean": {
+    "뜻": "마을"
+  },
+  "astin": {
+    "뜻": "맛"
+  },
+  "cleno": {
+    "뜻": "모니터"
+  },
+  "lenson": {
+    "뜻": "모두"
+  },
+  "lenslon": {
+    "뜻": "모둠"
+  },
+  "almiun": {
+    "뜻": "모래"
+  },
+  "liolin": {
+    "뜻": "무지개"
+  },
+  "iltan": {
+    "뜻": "문"
+  },
+  "amun": {
+    "뜻": "물"
+  },
+  "sn": {
+    "뜻": "물건"
+  },
+  "isamun": {
+    "뜻": "바다"
+  },
+  "utoan": {
+    "뜻": "바닥"
+  },
+  "emun": {
+    "뜻": "바람"
+  },
+  "unesan": {
+    "뜻": "박물관"
+  },
+  "kyon": {
+    "뜻": "반복"
+  },
+  "lipaen": {
+    "뜻": "발"
+  },
+  "atoen": {
+    "뜻": "배우"
+  },
+  "logamu": {
+    "뜻": "뱀"
+  },
+  "kilmun": {
+    "뜻": "번개"
+  },
+  "tilmun": {
+    "뜻": "천둥"
+  },
+  "sopisn": {
+    "뜻": "베개"
+  },
+  "dan": {
+    "뜻": "벽"
+  },
+  "dankisn": {
+    "뜻": "벽시계"
+  },
+  "katin": {
+    "뜻": "변화",
+    "설명": "변화/변동"
+  },
+  "tammun": {
+    "뜻": "별"
+  },
+  "dontosn": {
+    "뜻": "병",
+    "설명": "무언가를 담는 병"
+  },
+  "ulkin": {
+    "뜻": "병",
+    "설명": "질병."
+  },
+  "ulan": {
+    "뜻": "병원"
+  },
+  "pilin": {
+    "뜻": "보라색"
+  },
+  "son": {
+    "뜻": "보조"
+  },
+  "oplain": {
+    "뜻": "보호"
+  },
+  "ulgyon": {
+    "뜻": "복용"
+  },
+  "sipun": {
+    "뜻": "봄"
+  },
+  "ataen": {
+    "뜻": "부모"
+  },
+  "isin": {
+    "뜻": "분배"
+  },
+  "ipmun": {
+    "뜻": "불"
+  },
+  "aemun": {
+    "뜻": "비"
+  },
+  "ospin": {
+    "뜻": "비누",
+    "설명": "비누/세제"
+  },
+  "silun": {
+    "뜻": "빛"
+  },
+  "ilolin": {
+    "뜻": "빨강",
+    "설명": "빨강, 빨간색"
+  },
+  "en": {
+    "뜻": "사람"
+  },
+  "ukon": {
+    "뜻": "사용"
+  },
+  "emmin": {
+    "뜻": "사회"
+  },
+  "umtun": {
+    "뜻": "산"
+  },
+  "inumu": {
+    "뜻": "새",
+    "설명": "동물 새"
+  },
+  "lin": {
+    "뜻": "색깔"
+  },
+  "etkin": {
+    "뜻": "생각"
+  },
+  "itin": {
+    "뜻": "삶"
+  },
+  "hosn": {
+    "뜻": "수도",
+    "설명": "물이 통하는 수도"
+  },
+  "monneton": {
+    "뜻": "수도",
+    "설명": "국가의 수도"
+  },
+  "isen": {
+    "뜻": "스승"
+  },
+  "ilin": {
+    "뜻": "세척"
+  },
+  "akimu": {
+    "뜻": "소"
+  },
+  "undun": {
+    "뜻": "소리"
+  },
+  "ipmumen": {
+    "뜻": "소방관"
+  },
+  "slolaen": {
+    "뜻": "소장",
+    "설명": "몸속 장기"
+  },
+  "oposn": {
+    "뜻": "소지품"
+  },
+  "ilmiaen": {
+    "뜻": "소화",
+    "설명": "음식 소화"
+  },
+  "ipmunton": {
+    "뜻": "소화",
+    "설명": "불을 끈다"
+  },
+  "ilpaen": {
+    "뜻": "손"
+  },
+  "ason": {
+    "뜻": "숫자"
+  },
+  "otosn": {
+    "뜻": "수건",
+    "설명": "수건. 행주"
+  },
+  "kipon": {
+    "뜻": "수리"
+  },
+  "asatin": {
+    "뜻": "수학"
+  },
+  "edasn": {
+    "뜻": "식기"
+  },
+  "pelun": {
+    "뜻": "숲"
+  },
+  "duttin": {
+    "뜻": "버튼",
+    "설명": "버튼/스위치"
+  },
+  "panan": {
+    "뜻": "시",
+    "설명": "시/시간. n시간/n시"
+  },
+  "kanan": {
+    "뜻": "분",
+    "설명": "분. n분"
+  },
+  "siluon": {
+    "뜻": "시간"
+  },
+  "kisn": {
+    "뜻": "시계"
+  },
+  "palan": {
+    "뜻": "시골",
+    "설명": "시골/촌락"
+  },
+  "estin": {
+    "뜻": "시작"
+  },
+  "ilkan": {
+    "뜻": "시장"
+  },
+  "gyonan": {
+    "뜻": "식당"
+  },
+  "alptun": {
+    "뜻": "식물",
+    "설명": "식물/야채"
+  },
+  "ulon": {
+    "뜻": "신뢰"
+  },
+  "ilgon": {
+    "뜻": "실",
+    "설명": "실/줄"
+  },
+  "amiton": {
+    "뜻": "세면대",
+    "설명": "싱크대/세면대"
+  },
+  "adon": {
+    "뜻": "쓰레기"
+  },
+  "apon": {
+    "뜻": "아기",
+    "설명": "새끼/아기"
+  },
+  "hataen": {
+    "뜻": "아버지"
+  },
+  "sataen": {
+    "뜻": "어머니"
+  },
+  "shen": {
+    "뜻": "아이",
+    "설명": "자식/아이"
+  },
+  "ulkion": {
+    "뜻": "약"
+  },
+  "idan": {
+    "뜻": "안내"
+  },
+  "uimu": {
+    "뜻": "양"
+  },
+  "dilun": {
+    "뜻": "어둠"
+  },
+  "emolton": {
+    "뜻": "언어"
+  },
+  "ollen": {
+    "뜻": "에너지"
+  },
+  "supun": {
+    "뜻": "여름"
+  },
+  "kyatin": {
+    "뜻": "역사"
+  },
+  "pipmun": {
+    "뜻": "연기",
+    "설명": "연기/향기"
+  },
+  "lomen": {
+    "뜻": "연인"
+  },
+  "ethun": {
+    "뜻": "열"
+  },
+  "ekesn": {
+    "뜻": "잠금 장치"
+  },
+  "hyen": {
+    "뜻": "열쇠"
+  },
+  "omion": {
+    "뜻": "영화"
+  },
+  "omionan": {
+    "뜻": "영화관",
+    "설명": "극장/영화관"
+  },
+  "onnon": {
+    "뜻": "영상"
+  },
+  "alin": {
+    "뜻": "예술"
+  },
+  "aphamu": {
+    "뜻": "오리"
+  },
+  "oltisn": {
+    "뜻": "옷"
+  },
+  "inken": {
+    "뜻": "왕",
+    "설명": "왕 또는 국가 원수"
+  },
+  "oasin": {
+    "뜻": "요리",
+    "설명": "조리/요리"
+  },
+  "ilten": {
+    "뜻": "욕실"
+  },
+  "opkin": {
+    "뜻": "용서"
+  },
+  "assen": {
+    "뜻": "우주"
+  },
+  "kolon": {
+    "뜻": "운동"
+  },
+  "alkin": {
+    "뜻": "운반"
+  },
+  "dimin": {
+    "뜻": "운반"
+  },
+  "unolon": {
+    "뜻": "위",
+    "설명": "몸석 장기"
+  },
+  "nimmon": {
+    "뜻": "위로"
+  }
+}
 
-## 철자 규칙
-- `k`는 항상 /kh/로 읽음: `k` → 발음 [kh] (kh = 크하)
-- `s`는 /ʃ/로 읽음: `s` → [ʃ] (ʃ = 쉬)
-- `c`는 항상 /k/ (c = k = ㅋ)
-- `p`는 /p̚/으로 읽음 (p̚ = ㅍ)
-- `t`는 /t/로 읽음 (t = ㅌ)
-- `v`는 '브' 으로 읽음
-- `i`는 '잇' 으로 읽음
-
-### 이외 규칙
-- `re` 는 `레` 가 아닌 `리` 로 발음한다.
-
-## 문화말
-- `releit` : 만남 인사 / (releio = 리레잇트)
-- `teleit` : 헤어짐 인사 / (teleio = 테레잇트)
-- `ruon` : 형식적 만남 인사 / (ruon = 루오느)
-- `tuon` : 형식적 헤어짐 인사 / (tuon = 투오느)
-- `knat` : 고마움 / (knat = 크하나트)
-- `snat` : 미안함 / (snat = 쉬나트)
-
-
-## 대명사
-- `kn` : 그 / (khn = 크하느)
-- `rt` : 그것 / (rt = 르트)
-- `km` : 그녀 / (khm = 크하므)
-- `ti` : 그들 / (ti = 트잇)
-- `e`  : 나 / (e = 에)
-- `ak` : 너(당신) / (ak = 아크하)
-- `te` : 우리 / (te = 테)
-
-## 동사
-
-- `epa` : 이다 / (epa = 에파)
----
-- `leit` : 가다 / (leit = 레잇트)
-- `cetit` : 가르치다 / (cetit = 케트잇트)
-- `lait` : 걷다 / (lait = 라잇트)
-- `croit` : 기다리다 / (croit = 크로잇트)
-- `tamit` : (기르다 / 키우다) / (tamit = 타므잇트)
-- `ruoit` : (깨다 / 일어나다) / (ruoit = 루오잇트)
----
-- `ecait` : 날다 / (ecait = 에카잇트)
-- `nelit` : 녹이다 / (nelit = 네르잇트) 
-- `clait` : 놀다 / (clait = 클라잇트)
-- `puotit` : 누르다 / (puotit = 프우오트잇트)
-- `lancit` : 느끼다 / (lancit = 라느크잇트)
----
-- `otemit` : 닫다 / (otemit = 오테므잇트)
-- `slait` : 달리다 / (slait = 쉬라잇트)
-- `tiluit` : 당기다 / (tiluit = 티루잇트)
-- `pinuit` : 던지다 / (pinuit = 프잇누잇트)
-- `crcnit` : 돕다 / (crcnit = 크르크느잇트)
-- `entit` : 듣다 / (etit = 엔트잇트)
-- `noutit` : 들다 / (noutit = 노우트잇트)
-- `toleit` : 따라가다 / (toleit = 토레잇트)
-- `toepit` : 따라하다 / (toepit = 토에프잇트)
-- `tolomit` : 따르다(누군가를) / (tolomit = 토로므잇트)
-- `lumoit` : 따르다(액체를) / (lumoit = 루모잇트)
-- `pannit` : 떨어지다 / (pannit = 프아느느잇트)
-- `opolait` : 뛰다 / (opolait = 오포라잇트)
----
-- `lumatit` : 마시다 / (lumatit = 루마트잇트)
-- `nenit` : 만나다 / (nenit = 네느잇트)
-- `masit` : 만들다 / (masit = 마스잇트)
-- `lotcit` : 만지다 / (lotcit = 로트크잇트)
-- `spapenit` : 말하다 / (spapenit = 쉬프아프에느잇트)
-- `atit` : 먹다 / (atit = 아트잇트)
-- `pelenit` : 믿다 / (pelenit = 프에레느잇트)
-- `tiulit` : 밀다 / (tiulit = 트잇우르잇트)
----
-- `kanit` : 바꾸다 / (kanit = 크하느잇트)
-- `repit` : 받다 / (repit = 리프잇트)
-- `lokuit` : 보다 / (lokuit = 로크하우잇트)
-- `presit` : 부수다 / (presit = 프으리스잇트)
-- `sirenit` : 빛나다 / (sirenit = 쉬잇리느잇트)
-- `lesit` : 배우다 / (lesit = 레스잇트)
----
-- `apinuit` : 살다 / (apinuit = 아프잇누잇트)
-- `melunit` : 소리 지르다 (melunit = 메루느잇트)
-- `spunit` : 속삭이다 (spunit = 쉬프우느잇트)
-- `sapit` : (숨다 / 감추다) / (sapit = 쉬아프잇트)
-- `rennit` : 쉬다 / (rennit = 리느느잇트)
-- `rantit` : 심다 / (rantit = 라느트잇트)
-- `suntit` : 쓰다 / (suntit = 수느트잇트)
----
-- `litotit` : 일어서다 / (litotit = 르잇토트잇트)
-- `tutotit` : 앉다 / (tutotit = 투토트잇트)
-- `rerunit` : 얼리다 / (rerunit = 리루느잇트)
-- `olit` : 없다 / (olit = 오르잇트)
-- `alit` : 있다 / (alit = 아르잇트)
-- `atemit` : 열다 / (atemit = 아테므잇트)
-- `oelinit` : 울다 / (oelinit = 오에르잇느잇트)
-- `aelinit` : 웃다 / (aelinit = 아에르잇느잇트)
-- `oernit` : 울부짖다 / (oernit = 오에르느잇트)
-- `luosit` : 읽다 / (luosit = 루오스잇트)
-- `lotuit` : 입다 / (lotuit = 로투잇트)
-- `pocuit` : 잊다 / (pocuit = 프오쿠잇트)
----
-- `sleptit` : 자다 / (sleptit = 쉬레프트잇트)
-- `crontit` : 자라다 / (crontit = 크로느트잇트)
-- `catkit` : 잡다 / (catkit = 카타크하잇트)
-- `cunit` : 주다 / (cunit = 쿠느잇트)
-- `opinuit` : 죽다 / (opinuit = 오프잇누잇트)
----
-- `cacrit` : 차다 / (cacrit = 카크르잇트)
-- `pacrit` : (치다/때리다) / (pacrit = 프아크르잇트)
----
-- `lerunit` : 태우다 / (lerunit = 레루느잇트)
-- `leprnit` : 튀기다 / (leprnit = 레프르느잇트)
----
-- `cienit` : 팔다 / (cienit = 키에느잇트)
----
-- `ploluit` : 흐르다 / (ploluit = 프로루잇트)
----
-
-### 보조 동사
-- `sn` : ~할 수 있다. / (sn = 슨) / 예시 : sn luosit(읽을 수 있다 / 슨 루오스잇트)
-- `vn` : ~하고 싶다. / (vn = 븐) / 예시 : vn luosit(읽고 싶다 / 븐 루오스잇트)
-- `nn` : ~해야 한다. / (nn = 는) / 예시 : nn luosit(읽어야 한다 / 는 루오스잇트)
-
----
-## 단어 구성 요소
-
-- **명사형 어미** : 미정
-- **부사형 어미** : 미정
-- **형용사형 어미** : 미정
-- **동사형 어미** : -it
----
-- **진형행** : 동사 + eno(에노) / 예시 : luositeno(읽는 중이다. / 루오스잇트에노)
-- **과거형** : 동사 + op(오프) / 예시 : luositop(읽었다. / 루오스잇트오프)
-- **미래형** : 동사 + pt(프트) / 예시 : luositpt(읽을 것이다 / 루오스잇트프트)
-- **목적** : kc-(크하크) + 동사 / kc luosit(읽기 위해 / 크하크 루오스잇트)
----
-- **추정** : ur-(우르) + 동사 / 예시 : ur luosit(읽었을 것이다 / 우르 루오스잇트)
-- **가정** : vm(븜) {내용} um(움) / 예시 : vm luosit um(만약 읽었다면 / 븜 루오스잇트 움)
----
-
-
-
-
-## 예문
-Kn cetit te / 그 가르치다 우리 -> 그는 우리를 가르친다
-
+  "j": {
+    "뜻": "-들",
+    "설명": "복수형",
+    "예문": "aphamuj : 오리들"
+  },
+  "'n": {
+    "뜻": "-이 아닌",
+    "설명": "부정",
+    "예문": "ti epa'n aphamu : 그것은 오리가 아니다."
+  },
+  "jen": {
+    "뜻": "-보다",
+    "설명": "비교",
+    "예문": "(b) epa dik jen (a) : a보다 b가 크다"
+  },
+  "yan": {
+    "뜻": "할 것이다",
+    "예문": "yan pamunud -> 튀길 것이고"
+  },
+  "yun": {
+    "뜻": "했다",
+    "예문": "yun pamunud -> 튀겼고"
+  }
+  "oh": {
+    "뜻": "되다",
+    "예문":[
+      "oh yan -> 될 것이다",
+      "oh pamunu -> 튀겨지다",
+      "oh yan pamunud -> 튀겨질 것이고"
+    ]
+  }
