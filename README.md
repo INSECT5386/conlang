@@ -28,7 +28,16 @@
     "뜻": "우리"
   },
   "epa": {
-    "뜻": "이다"
+    "뜻": "이다",
+      "변형": [
+      "epal : -게",
+      "epag : -인",
+      "epak : -은",
+      "epar : -서",
+      "epad : -고",
+      "epat : -면",
+      "epam : -며"
+    ]
   },
   "lenu": {
     "뜻": "가다",
@@ -38,7 +47,8 @@
       "lenuk : 간",
       "lenur : 가서",
       "lenud : 가고",
-      "lenut : 가면"
+      "lenut : 가면",
+      "lenum : 가며"
     ]
   },
   "thau": {
@@ -49,7 +59,8 @@
       "thauk : 가르친",
       "thaur : 가르쳐서",
       "thaud : 가르치고",
-      "thaut : 가르치면"
+      "thaut : 가르치면",
+      "thaum : 가르치며"
     ]
   },
   "lanu": {
@@ -60,7 +71,8 @@
       "lanuk : 걸은",
       "lanur : 걸어서",
       "lanud : 걷고",
-      "lanut : 걸으면"
+      "lanut : 걸으면",
+      "lanum : 걸으며"
     ]
   },
   "atiu": {
@@ -71,7 +83,8 @@
       "atiuk : 기다린",
       "atiur : 기다려서",
       "atiud : 기다리고",
-      "atiut : 기다리면"
+      "atiut : 기다리면",
+      "atium : 기다리며"
     ]
   },
   "hyoanu": {
@@ -82,7 +95,8 @@
       "hyoanuk : 기른",
       "hyoanur : 길러서",
       "hyoanud : 기르고",
-      "hyoanut : 기르면"
+      "hyoanut : 기르면",
+      "hyoanum : 기르며"
     ]
   },
   "ekou": {
@@ -94,7 +108,8 @@
       "ekouk : 깬",
       "ekour : 깨서",
       "ekoud : 깨고",
-      "ekout : 깨면"
+      "ekout : 깨면",
+      "ekoum : 깨며"
     ]
   },
   "allu": {
@@ -105,7 +120,8 @@
       "alluk : 난",
       "allur : 날아서",
       "allud : 날고",
-      "allut : 날면"
+      "allut : 날면",
+      "allum : 날며"
     ]
   },
   "elonu": {
@@ -116,7 +132,8 @@
       "elonuk : 녹인",
       "elonur : 녹여서",
       "elonud : 녹이고",
-      "elonut : 녹이면"
+      "elonut : 녹이면",
+      "elonum : 녹이며"
     ]
   },
   "senolu": {
@@ -127,7 +144,8 @@
       "senoluk : 논",
       "senolur : 놀아서",
       "senolud : 놀고",
-      "senolut : 놀면"
+      "senolut : 놀면",
+      "senolum : 놀며"
     ]
   },
   "sulu": {
@@ -138,7 +156,8 @@
       "suluk : 놀란",
       "sulur : 놀라서",
       "sulud : 놀라고",
-      "sulut : 놀라면"
+      "sulut : 놀라면",
+      "sulum : 놀라며"
     ]
   },
   "esisu": {
@@ -149,7 +168,8 @@
       "esisuk : 누른",
       "esisur : 눌러서",
       "esisud : 누르고",
-      "esisut : 누르면"
+      "esisut : 누르면",
+      "esisum : 누르며"
     ]
   },
   "sionu": {
@@ -160,7 +180,8 @@
       "sionuk : 느낀",
       "sionur : 느껴서",
       "sionud : 느끼고",
-      "sionut : 느끼면"
+      "sionut : 느끼면",
+      "sionum : 느끼며"
     ]
   },
   "danteu": {
@@ -171,7 +192,8 @@
       "danteuk : 닫은",
       "danteur : 닫아서",
       "danteud : 닫고",
-      "danteut : 닫으면"
+      "danteut : 닫으면",
+      "danteum : 닫으며"
     ]
   },
   "slanu": {
@@ -182,7 +204,8 @@
       "slanuk : 달린",
       "slanur : 달려서",
       "slanud : 달리고",
-      "slanut : 달리면"
+      "slanut : 달리면",
+      "slanum : 달리며"
     ]
   },
   "thenu": {
@@ -193,7 +216,8 @@
       "thenuk : 당긴",
       "thenur : 당겨서",
       "thenud : 당기고",
-      "thenut : 당기면"
+      "thenut : 당기면",
+      "thenum : 당기며"
     ]
   },
   "shunu": {
@@ -204,7 +228,8 @@
       "shunuk : 던진",
       "shunur : 던져서",
       "shunud : 던지고",
-      "shunut : 던지면"
+      "shunut : 던지면",
+      "shunum : 던지며"
     ]
   },
   "emotu": {
@@ -215,7 +240,8 @@
       "emotuk : 돌본",
       "emotur : 돌봐서",
       "emotud : 돌보고",
-      "emotut : 돌보면"
+      "emotut : 돌보면",
+      "emotum : 돌보며"
     ]
   },
   "yaeneu": {
@@ -226,7 +252,8 @@
       "yaeneuk : 도운",
       "yaeneur : 도와서",
       "yaeneud : 돕고",
-      "yaeneut : 도우면"
+      "yaeneut : 도우면",
+      "yaeneum : 도우며"
     ]
   },
   "ungiu": {
@@ -237,18 +264,20 @@
       "ungiuk : 들은",
       "ungiur : 들어서",
       "ungiud : 듣고",
-      "ungiut : 들으면"
+      "ungiut : 들으면",
+      "ungium : 들으며"
     ]
   },
   "luanu": {
     "뜻": "들다",
     "변형":[
       "luanul : 들게",
-      "lunaug : 드는",
+      "luanug : 드는",
       "luanuk : 든",
       "luanur : 들어서",
       "luanud : 들고",
-      "luanut : 들면"
+      "luanut : 들면",
+      "luanum : 들며"
     ]
   },
   "lolenu": {
@@ -259,7 +288,8 @@
       "lolenuk : 따라간",
       "lolenur : 따라가서",
       "lolenud : 따라가고",
-      "lolenut : 따라가면"
+      "lolenut : 따라가면",
+      "lolenum : 따라가며"
     ]
   },
   "lotenu": {
@@ -270,7 +300,8 @@
       "lotenuk : 따라한",
       "lotenur : 따라해서",
       "lotenud : 따라하고",
-      "lotenut : 따라하면"
+      "lotenut : 따라하면",
+      "lotenum : 따라하며"
     ]
   },
   "lommu": {
@@ -282,7 +313,8 @@
       "lommuk : 따른",
       "lommur : 따라서",
       "lommud : 따르고",
-      "lommut : 따르면"
+      "lommut : 따르면",
+      "lommum : 따르며"
     ]
   },
   "lonnu": {
@@ -294,7 +326,8 @@
       "lonnuk : 따른",
       "lonnur : 따라서",
       "lonnud : 따르고",
-      "lonnut : 따르면"
+      "lonnut : 따르면",
+      "lonnum : 따르며"
     ]
   },
   "donteu": {
@@ -305,7 +338,8 @@
       "donteuk : 떨어진",
       "donteur : 떨어져서",
       "donteud : 떨어지고",
-      "donteut : 떨어지면"
+      "donteut : 떨어지면",
+      "donteum : 떨어지며"
     ]
   },
   "tlenu": {
@@ -316,7 +350,8 @@
       "tlenuk : 뛴",
       "tlenur : 뛰어서",
       "tlenud : 뛰고",
-      "tlenut : 뛰면"
+      "tlenut : 뛰면",
+      "tlenum : 뛰며"
     ]
   },
   "eminu": {
@@ -327,7 +362,8 @@
       "eminuk : 마신",
       "eminur : 마셔서",
       "eminud : 마시고",
-      "eminut : 마시면"
+      "eminut : 마시면",
+      "eminum : 마시며"
     ]
   },
   "immiu": {
@@ -338,7 +374,8 @@
       "immiuk : 만난",
       "immiur : 만나서",
       "immiud : 만나고",
-      "immiut : 만나면"
+      "immiut : 만나면",
+      "immium : 만나며"
     ]
   },
   "hyasu": {
@@ -349,7 +386,8 @@
       "hyasuk : 만든",
       "hyasur : 만들어서",
       "hyasud : 만들고",
-      "hyasut : 만들면"
+      "hyasut : 만들면",
+      "hyasum : 만들며"
     ]
   },
   "selu": {
@@ -360,7 +398,8 @@
       "seluk : 만진",
       "selur : 만져서",
       "selud : 만지고",
-      "selut : 만지면"
+      "selut : 만지면",
+      "selum : 만지며"
     ]
   },
   "piu": {
@@ -371,7 +410,8 @@
       "piuk : 말한",
       "piur : 말해서",
       "piud : 말하고",
-      "piut : 말하면"
+      "piut : 말하면",
+      "pium : 말하며"
     ]
   },
   "gyonu": {
@@ -382,7 +422,8 @@
       "gyonuk : 먹은",
       "gyonur : 먹어서",
       "gyonud : 먹고",
-      "gyonut : 먹으며"
+      "gyonut : 먹으면",
+      "gyonum : 먹으며"
     ]
   },
   "yonnu": {
@@ -393,7 +434,8 @@
       "yonnuk : 믿은",
       "yonnur : 믿어서",
       "yonnud : 믿고",
-      "yonnut : 믿으며"
+      "yonnut : 믿으면",
+      "yonnum : 믿으며"
     ]
   },
   "genneu": {
@@ -404,7 +446,8 @@
       "genneuk : 민",
       "genneur : 밀어서",
       "genneud : 밀고",
-      "genneut : 밀며"
+      "genneut : 밀면",
+      "genneum : 밀며"
     ]
   },
   "supalu": {
@@ -415,7 +458,8 @@
       "supaluk : 바꾼",
       "supalur : 바꿔서",
       "supalud : 바꾸고",
-      "supalut : 바꾸며"
+      "supalut : 바꾸면",
+      "supalum : 바꾸며"
     ]
   },
   "taku": {
@@ -426,7 +470,8 @@
       "takuk : 받은",
       "takur : 받아서",
       "takud : 받고",
-      "takut : 받으며"
+      "takut : 받으면",
+      "takum : 받으며"
     ]
   },
   "loku": {
@@ -437,7 +482,8 @@
       "lokuk : 본",
       "lokur : 보아서",
       "lokud : 보고",
-      "lokut : 보며"
+      "lokut : 보면",
+      "lokum : 보며"
     ]
   },
   "pomnu": {
@@ -448,7 +494,8 @@
       "pomnuk : 부순",
       "pomnur : 부숴서",
       "pomnud : 부수고",
-      "pomnut : 부수며"
+      "pomnut : 부수면",
+      "pomnum : 부수며"
     ]
   },
   "painu": {
@@ -459,7 +506,8 @@
       "painuk : 빛난",
       "painur : 빛나서",
       "painud : 빛나고",
-      "painut : 빛나며"
+      "painut : 빛나면",
+      "painum : 빛나며"
     ]
   },
   "itinu": {
@@ -470,18 +518,20 @@
       "itinuk : 산",
       "itinur : 살아서",
       "itinud : 살고",
-      "itinut : 살며"
+      "itinut : 살면",
+      "itinum : 살며"
     ]
   },
   "epepu": {
     "뜻": "서다",
       "변형":[
       "epepul : 서게",
-      "epepul : 서는",
+      "epepug : 서는",
       "epepuk : 선",
       "epepur : 서서",
       "epepud : 서고",
-      "epeput : 서며"
+      "epeput : 서면",
+      "epepum : 서며"
     ]
   },
   "ellu": {
@@ -492,7 +542,8 @@
       "elluk : 소리 지른",
       "ellur : 소리 질러서",
       "ellud : 소리 지르고",
-      "ellut : 소리 지르며"
+      "ellut : 소리 지르면",
+      "ellum : 소리 지르며"
     ]
   },
   "inhaeu": {
@@ -503,7 +554,8 @@
       "inhaeuk : 속삭인",
       "inhaeur : 속삭여서",
       "inhaeud : 속삭이고",
-      "inhaeut : 속삭이며"
+      "inhaeut : 속삭이면",
+      "inhaeum : 속삭이며"
     ]
   },
   "syenu": {
@@ -514,7 +566,8 @@
       "syenuk : 숨은",
       "syenur : 숨어서",
       "syenud : 숨고",
-      "syenut : 숨으며"
+      "syenut : 숨으면",
+      "syenum : 숨으며"
     ]
   },
   "imyenu": {
@@ -525,7 +578,8 @@
       "imyenuk : 쉰",
       "imyenur : 쉬어서",
       "imyenud : 쉬고",
-      "imyenut : 쉬며"
+      "imyenut : 쉬면",
+      "imyenum : 쉬며"
     ]
   },
   "antiu": {
@@ -536,7 +590,8 @@
       "antiuk : 심은",
       "antiur : 심어서",
       "antiud : 심고",
-      "antiut : 심으며"
+      "antiut : 심으면",
+      "antium : 심으며"
     ]
   },
   "pionu": {
@@ -548,7 +603,8 @@
       "pionuk : 쓴",
       "pionur : 써서",
       "pionud : 쓰고",
-      "pionut : 쓰며"
+      "pionut : 쓰면",
+      "pionum : 쓰며"
     ]
   },
   "ku": {
@@ -559,7 +615,8 @@
       "kuk : 앉은",
       "kur : 앉아서",
       "kud : 앉고",
-      "kut : 앉으며"
+      "kut : 앉으면",
+      "kum : 앉으며"
     ]
   },
   "tanhu": {
@@ -570,7 +627,8 @@
       "tanhuk : 얼린",
       "tanhur : 얼려서",
       "tanhud : 얼리고",
-      "tanhut : 얼리며"
+      "tanhut : 얼리면",
+      "tanhum : 얼리며"
     ]
   },
   "einu": {
@@ -580,7 +638,8 @@
       "einuk : 없는",
       "einur : 없어서",
       "einud : 없고",
-      "einut : 없으며"
+      "einut : 없으면",
+      "einum : 없으며"
     ]
   },
   "ainu": {
@@ -590,7 +649,8 @@
       "ainuk : 있는",
       "ainur : 있어서",
       "ainud : 있고",
-      "ainut : 있으며"
+      "ainut : 있으면",
+      "ainum : 있으며"
     ]
   },
   "tendau": {
@@ -601,7 +661,8 @@
       "tendauk : 연",
       "tendaur : 열어서",
       "tendaud : 열고",
-      "tendaut : 열며"
+      "tendaut : 열면",
+      "tendaum : 열며"
     ]
   },
   "esentu": {
@@ -612,7 +673,8 @@
       "esentuk : 운",
       "esentur : 울어서",
       "esentud : 울고",
-      "esentut : 울며"
+      "esentut : 울면",
+      "esetum : 울며"
     ]
   },
   "stenu": {
@@ -623,7 +685,8 @@
       "stenuk : 울부짖은",
       "stenur : 울부짖어서",
       "stenud : 울부짖고",
-      "stenut : 울부짖으며"
+      "stenut : 울부짖으면",
+      "stenum : 울부짖으며"
     ]
   },
   "niopu": {
@@ -634,7 +697,8 @@
       "niopuk : 읽은",
       "niopur : 읽어서",
       "niopud : 읽고",
-      "nioput : 읽으며"
+      "nioput : 읽으면",
+      "niopum : 읽으며"
     ]
   },
   "oltinu": {
@@ -645,7 +709,8 @@
       "oltinuk : 입은",
       "oltinur : 입어서",
       "oltinud : 입고",
-      "oltinut : 입으며"
+      "oltinut : 입으면",
+      "oltinum : 입으며"
     ]
   },
   "umulu": {
@@ -656,7 +721,8 @@
       "umuluk : 잊은",
       "umulur : 잊어서",
       "umulud : 잊고",
-      "umulut : 잊으며"
+      "umulut : 잊으면",
+      "umulum : 잊으며"
     ]
   },
   "dilunu": {
@@ -666,7 +732,8 @@
       "dilunuk : 어두운",
       "dilunur : 어두워서",
       "dilunud : 어둡고",
-      "dilunut : 어두우면"
+      "dilunut : 어두우면",
+      "dilunum : 어두우며"
     ]
   },
   "honnu": {
@@ -677,7 +744,8 @@
       "honnuk : 잔",
       "honnur : 자서",
       "honnud : 자고",
-      "honnut : 자면"
+      "honnut : 자면",
+      "honnum : 자며"
     ]
   },
   "olteu": {
@@ -688,18 +756,20 @@
       "olteuk : 자란",
       "olteur : 자라서",
       "olteud : 자라고",
-      "olteut : 자라면"
+      "olteut : 자라면",
+      "olteum : 자라며"
     ]
   },
   "uteku": {
     "뜻": "자르다",
     "변형": [
       "utekul : 자르게",
-      "utelkug : 자르는",
+      "utekug : 자르는",
       "utekuk : 자른",
       "utekur : 잘라서",
       "utekud : 자르고",
-      "utekut : 자르면"
+      "utekut : 자르면",
+      "utekum : 자르며"
     ]
   },
   "ennou": {
@@ -710,7 +780,8 @@
       "ennouk : 잡은",
       "ennour : 잡아서",
       "ennoud : 잡고",
-      "ennout : 잡으면"
+      "ennout : 잡으면",
+      "ennoum : 잡으며"
     ]
   },
   "ontou": {
@@ -721,7 +792,8 @@
       "ontouk : 준",
       "ontour : 주어서",
       "ontoud : 주고",
-      "ontout : 주면"
+      "ontout : 주면",
+      "ontoum : 주며"
     ]
   },
   "otinu": {
@@ -732,7 +804,8 @@
       "otinuk : 죽은",
       "otinur : 죽어서",
       "otinud : 죽고",
-      "otinut : 죽으면"
+      "otinut : 죽으면",
+      "otinum : 죽으며"
     ]
   },
   "aku": {
@@ -743,17 +816,20 @@
       "akuk : 찬",
       "akur : 차서",
       "akud : 차고",
-      "akut : 차면"
+      "akut : 차면",
+      "akum : 차며"
     ]
   },
   "galhu": {
     "뜻": "태우다",
     "변형": [
       "galhul : 태우게",
+      "galhug : 태우는",
       "galhuk : 태운",
       "galhur : 태워서",
       "galhud : 태우고",
-      "galhut : 태우면"
+      "galhut : 태우면",
+      "galhum : 태우며"
     ]
   },
 
@@ -765,7 +841,8 @@
       "pamunuk : 튀긴",
       "pamunur : 튀겨서",
       "pamunud : 튀기고",
-      "pamunut : 튀기며"
+      "pamunut : 튀기면",
+      "pamunum : 튀기며"
     ]
   },
   "dullu": {
@@ -776,7 +853,8 @@
       "dulluk : 판",
       "dullur : 팔아서",
       "dullud : 팔고",
-      "dullut : 팔며"
+      "dullut : 팔면",
+      "dullum : 팔며"
     ]
   },
   "eolpu": {
@@ -787,7 +865,8 @@
       "eolpuk : 흐른",
       "eolpur : 흘러서",
       "eolpud : 흐르고",
-      "eolput : 흐르며"
+      "eolput : 흐르면",
+      "eolpum : 흐르며"
     ]
   },
   "(a) akaun (b)": {
@@ -1426,35 +1505,55 @@
   }
 }
 
+이 아래로는 테스트/추가 예정
+
   "j": {
     "뜻": "-들",
     "설명": "복수형",
     "예문": "aphamuj : 오리들"
-  },
-  "'n": {
-    "뜻": "-이 아닌",
-    "설명": "부정",
-    "예문": "ti epa'n aphamu : 그것은 오리가 아니다."
   },
   "jen": {
     "뜻": "-보다",
     "설명": "비교",
     "예문": "(b) epa dik jen (a) : a보다 b가 크다"
   },
-  "yan": {
-    "뜻": "할 것이다",
-    "예문": "yan pamunud -> 튀길 것이고"
-  },
-  "yun": {
-    "뜻": "했다",
-    "예문": "yun pamunud -> 튀겼고"
+  "'n": {
+    "뜻": "-이 아닌",
+    "설명": "부정",
+    "예문": "ti epa'n aphamu : 그것은 오리가 아니다. i pamunu'n ti : 나는 그것을 튀기지 않았다." 
   }
-  "oh": {
+
+  
+  "vilani": {
     "뜻": "되다",
-    "예문":[
-      "oh yan -> 될 것이다",
-      "oh pamunu -> 튀겨지다",
-      "oh yan pamunud -> 튀겨질 것이고"
+    "설명": "피동. pamunu vilani = pamunu'v = 튀겨지다"
+  },
+  "yani": {
+    "뜻": "할 것이다",
+    "예문": "yani pamunud -> 튀길 것이고",
+    "변형":[
+      "yani'v : 될 것이다"
     ]
+  },
+  "yuni": {
+    "뜻": "했다",
+    "예문": "yuni pamunud -> 튀겼고",
+    "변형":[
+      "yuni'v : 됐다"
+    ]
+  },
+  "pini": {
+    "뜻": "하고 있다",
+    "설명": "진행형. pamunu pini = pamunu'p = 튀기고 있다.",
+    "변형":[
+      "pivilani('piv) : 되고 있다."
+    ]
+  } 
+
+
+  "sus": {
+    "뜻": "또한",
+    "예문": "su epat en, i epa en sus. -> 그녀가 사람이라면, 나 또한 사람이다. / hu epa en. i epa en sus -> 그는 사람이다. 나 또한 사람이다."
   }
+
 ```
