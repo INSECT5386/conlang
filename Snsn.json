@@ -41,15 +41,15 @@
   },
   "lenu": {
     "뜻": "가다",
-    "변형": [
-      "lenul : 가게",
-      "lenug : 가는",
-      "lenuk : 간",
-      "lenur : 가서",
-      "lenud : 가고",
-      "lenut : 가면",
-      "lenum : 가며"
-    ]
+    "변형": {
+      "lenul": "가게",
+      "lenug": "가는",
+      "lenuk": "간",
+      "lenur": "가서",
+      "lenud": "가고",
+      "lenut": "가면",
+      "lenum": "가며"
+    }
   },
   "thau": {
     "뜻": "가르치다",
