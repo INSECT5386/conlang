@@ -1,9 +1,9 @@
 {
-    "Zil": {
+    "Z": {
         "type": "slot tag",
         "meaning": "현재 상황 / 현상"
     },
-    "Tor": {
+    "T": {
         "type": "slot tag",
         "meaning": "시간 / 흐름"
     },
@@ -11,11 +11,11 @@
         "type": "slot tag",
         "meaning": "원인 / 전제"
     },
-    "Fen": {
+    "F": {
         "type": "slot tag",
         "meaning": "결과 / 작용"
     },
-    "Nox": {
+    "N": {
         "type": "slot tag",
         "meaning": "생각 / 가치 판단"
     },
@@ -23,48 +23,52 @@
         "type": "인지/지식",
         "meaning": "학습, 데이터, 수학, 논리, 정보"
     },
-    "IDM": {
+    "I": {
         "type": "id tag",
         "meaning": "화자 (나)"
     },
-    "IDY": {
+    "Y": {
         "type": "id tag",
         "meaning": "청자 (너)"
     },
-    "IDX": {
+    "X": {
         "type": "id tag",
         "meaning": "제3자/외부 객체"
     },
-    ">>": {
+    ">": {
         "type": "logic gate",
         "meaning": "인과관계의 흐름 (A 때문에 B가 됨)."
     },
-    "==": {
+    "=": {
         "type": "logic gate",
         "meaning": "동시 발생 (A와 B가 동시에 일어남)."
     },
-    "!!": {
+    "!": {
         "type": "logic gate",
         "meaning": "즉각적인 대응이 필요한 데이터 (경고/위험)."
     },
-    "??": {
+    "?": {
         "type": "logic gate",
         "meaning": "데이터 확인 요청 (질문)."
     },
-    "::": {
+    ",": {
+        "type": "logic gate",
+        "meaning": "문장 끊기와 동시에 병렬"
+    },
+    ";": {
         "type": "meta data",
         "meaning": "이 데이터가 어떤 목적으로 전송되었는지 '꼬리표'를 붙임",
-        "example": "[데이터 내용] :: 질문 (이 상황이 맞는지 확인해줘), [데이터 내용] :: 명령 (이 결과값이 나오도록 행동해)"
+        "example": "[데이터 내용] ; 질문 (이 상황이 맞는지 확인해줘), [데이터 내용] ; 명령 (이 결과값이 나오도록 행동해)"
     },
-    "Incv": {
+    "+": {
         "type": "vector tag",
         "meaning": "확장, 상승, 강화",
-        "example": "Zem-Incv -> 점점 평온해짐"
+        "example": "Zem+ -> 점점 평온해짐"
     },
-    "Decv": {
+    "/": {
         "type": "vector tag",
         "meaning": "축소, 하락, 약화",
-        "example": "Ram-Decv -> 분노가 가라앉음"
+        "example": "Ram/ -> 분노가 가라앉음"
     },
     "Rev": {
         "type": "vector tag",
@@ -74,13 +78,13 @@
     "Vag": {
         "type": "vector tag",
         "meaning": "설명하기 힘든 모호한 상태",
-        "example": "Nox-Vag = 생각 정리가 안돼(= 미묘해)"
+        "example": "N-Vag = 생각 정리가 안돼(= 미묘해)"
     },
-    "Inrs": {
+    "()": {
         "type": "scope tag",
         "meaning": "내부, 본질, 비공개 데이터 (내면의 생각)"
     },
-    "Outs": {
+    "[]": {
         "type": "scope tag",
         "meaning": "외부, 표면, 공개 데이터 (겉으로 드러난 행동)"
     },
@@ -95,27 +99,27 @@
     "Fluc": {
         "type": "certainy tag",
         "meaning": "가변적인, 불확실한, 추측",
-        "example": "IDX-Fluc -> 정체불명의 외부 객체"
+        "example": "X-Fluc -> 정체불명의 외부 객체"
     },
     "fitr": {
         "type": "filter tag",
         "setting": "이 인공어의 다른 품사들을 묶어서 하나의 변수로 만들고 그 변수가 필터 역할을 한다",
-        "example": "Step 1. 필터 정의 Filter [Burnout] = {Tor-Incv + Krag-High + Inrs-Ram-Incv} (설명: 시간이 갈수록 심해지며, 마찰이 높고, 내면의 분노가 커지는 상태). Step 2. 외부 명사 대입 및 출력 입력: [Burnout] (Project Deadline) 결과: IDX : Burnout >> IDM : Outs-Zem // Inrs-Ram-High !! (해석: 프로젝트 마감기한이라는 명사가 'Burnout' 필터를 통과함에 따라, 외부 객체는 심각한 갈등/압박 상태로 규정되고 나는 겉으론 평온하나 속은 폭발 직전임)."
+        "example": "Step 1. 필터 정의 Filter [Burnout] = {T-flow + Krag-High + (Ram+)} (설명: 시간이 갈수록 심해지며, 마찰이 높고, 내면의 분노가 커지는 상태). Step 2. 외부 명사 대입 및 출력 입력: [Burnout] (Project Deadline) 결과: X : Burnout > I : [Zem], (Ram-High) ! (해석: 프로젝트 마감기한이라는 명사가 'Burnout' 필터를 통과함에 따라, 외부 객체는 심각한 갈등/압박 상태로 규정되고 나는 겉으론 평온하나 속은 폭발 직전임)."
     },
     "Hrt": {
         "type": "humanity",
         "meaning": "논리적 근거는 없는 데 그냥 그렇게 느껴지는 것.",
-        "example": "IDM : Hrt-Zem = 이유는 모르겠지만 그냥 평온해."
+        "example": "I : Hrt-Zem = 이유는 모르겠지만 그냥 평온해."
     },
     "Sola": {
         "type": "humanity",
         "meaning": "너의 상태를 나도 함께 느끼겠다",
-        "example": "IDY-Ram >> IDM-Sola = 네가 화를 내니 나도 화가난다."
+        "example": "Y-Ram > I-Sola = 네가 화를 내니 나도 화가난다."
     },
     "Liwd": {
         "type": "humanity",
         "meaning": "가능성과 상상",
-        "example": "Zil-liwd-Solg = 이게 해결되는 생각하고 있어."
+        "example": "Z-liwd-Solg = 이게 해결되는 생각하고 있어."
     },
     "Voig": {
         "type": "결핍/필요",
@@ -158,7 +162,9 @@
         "meaning": "내 것, 연결됨, 소유함"
     },
     "예문모음": {
-        "IDM: Zil-Voig": "나 배고파",
-        "IDM >> Tor-1400 : Zil-Poci // Fen Voig :: Nox-Ram-Zem": "약속 장소에 늦어서 미안해"
+        "I: Z-Voig": "나 배고파",
+        "I > T-1400 : Z-Poci, F-Voig ; N-[Zem](Ram)": "약속 장소에 늦어서 미안해",
+        "I:Log+ > N-Zem+": "공부하니까 지식이 늘어서 기분이 좋아",
+        "I: Z-Voig, [Zem](Ram)": "배고픈데 겉으론 참는 중"
     }
 }
