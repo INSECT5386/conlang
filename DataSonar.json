@@ -6,9 +6,9 @@
     "T": {
         "type": "slot tag",
         "meaning": "시간 / 흐름",
-        "example": "T-1400 -> 14시00분(절대 시간), T-p -> 과거, T-f -> 미래, T-n -> 현재, T-flow -> 진행형"
+        "example": "T-1400 -> 14시00분(절대 시간), T-p -> 과거, T-f -> 미래, T-n -> 현재, T-flow -> 진행형, T-dur:3h -> 3시간 동안 지속, T-inf -> 영구적 상태"
     },
-    "Kas": {
+    "K": {
         "type": "slot tag",
         "meaning": "원인 / 전제"
     },
@@ -19,10 +19,6 @@
     "N": {
         "type": "slot tag",
         "meaning": "생각 / 가치 판단"
-    },
-    "Log": {
-        "type": "인지/지식",
-        "meaning": "학습, 데이터, 수학, 논리, 정보"
     },
     "I": {
         "type": "id tag",
@@ -39,6 +35,18 @@
     ">": {
         "type": "logic gate",
         "meaning": "인과관계의 흐름 (A 때문에 B가 됨)."
+    },
+    "<>": {
+        "type": "logic gate",
+        "meaning": "상호 영향 (A와 B가 서로 주고받음)"
+    },
+    "~>": {
+        "type": "logic gate",
+        "meaning": "지연된 인과 (A가 시간이 흐른 뒤 B를 유발함)"
+    },
+    "|": {
+        "type": "logic gate",
+        "meaning": "a 혹은 b 중 하나. 예시: A|B"
     },
     "=": {
         "type": "logic gate",
@@ -64,11 +72,13 @@
     "+": {
         "type": "vector tag",
         "meaning": "확장, 상승, 강화",
-        "example": "Zem+ -> 점점 평온해짐"
+        "setting": "일부 vector tag는 1~5까지의 단계 숫자를 가짐. 예시: Ram+3",
+        "example": "Zem+ -> 점점 평온해짐."
     },
     "/": {
         "type": "vector tag",
         "meaning": "축소, 하락, 약화",
+        "setting": "일부 vector tag는 1~5까지의 단계 숫자를 가짐. 예시: Ram/3",
         "example": "Ram/ -> 분노가 가라앉음"
     },
     "Rev": {
@@ -124,7 +134,24 @@
     },
     "Voig": {
         "type": "결핍/필요",
-        "meaning": "배고픔, 없음, 결여됨, 필요함"
+        "meaning": "배고픔, 없음, 결여됨, 필요함",
+        "derivation": {
+            "Voig.b": "육체적 결핍(허기/졸음/통증 등)",
+            "Voig.m": "정신적 결핍 (애정/인정/지적 호기심 등)",
+            "Voig.r": "물리적 결핍 (돈/도구/시간 등)"
+        },
+        "example": "Voig.b:80 -> 육체적 결핍 강도 80"
+    },
+    "Log": {
+        "type": "인지/지식",
+        "meaning": "학습, 데이터, 수학, 논리, 정보",
+        "derivation": {
+            "Log.m": "과거의 기록, 기억 데이터",
+            "Log.i": "외부에서 새로 들어오는 정보",
+            "Log.c": "내부 연산, 논리적 추론 결과",
+            "Log.v": "사실 확인이 완료된 정보"
+        },
+        "example": "Log.m:Has -> 과거 기억 데이터 소유 중"
     },
     "Krag": {
         "type": "충돌/대립",
@@ -132,7 +159,13 @@
     },
     "Solg": {
         "type": "해소/획득",
-        "meaning": "먹다, 해결, 정답, 충족"
+        "meaning": "먹다, 해결, 정답, 충족",
+        "derivation": {
+            "Solg.b": "육체적 해소(허기/졸음/통증 등)",
+            "Solg.m": "정신적 해소 (애정/인정/지적 호기심 등)",
+            "Solg.r": "물리적 해소 (돈/도구/시간 등)"
+        },
+        "example": "Solg.b:80 -> 육체적 해소 강도 80"
     },
     "Domg": {
         "type": "위계/추체",
@@ -148,11 +181,23 @@
     },
     "Zem": {
         "type": "emotion",
-        "meaning": "평온, 동의, 수용"
+        "meaning": "평온, 동의, 수용",
+        "derivation": {
+            "Zem.s": "나른함, 휴식상태의 평온",
+            "Zem.a": "동의, 타당함에서 오는 평온",
+            "Zem.f": "충족감에서 오는 평온"
+        },
+        "example": "Zem.s:80 -> 휴식에 의한 평온 강도 80"
     },
     "Ram": {
         "type": "emotion",
-        "meaning": "분노, 거부, 충돌"
+        "meaning": "분노, 거부, 충돌",
+        "derivation": {
+            "Ram.i": "짜증, 마찰에 의한 (거부/분노/충돌)",
+            "Ram.f": "공포, 위협에 의한 (거부/분노/충돌)",
+            "Ram.s": "슬픔, 상실에 의한 (거부/분노/충돌)"
+        },
+        "example": "Ram.i:80 -> 마찰에 의한 (거부/분노/충돌) 강도 80"
     },
     "Val": {
         "type": "value",
@@ -163,9 +208,6 @@
         "meaning": "내 것, 연결됨, 소유함"
     },
     "예문모음": {
-        "I: Z-Voig": "나 배고파",
-        "I > T-1400 : Z-Poci, F-Voig ; N-[Zem](Ram)": "약속 장소에 늦어서 미안해",
-        "I:Log+ > N-Zem+": "공부하니까 지식이 늘어서 기분이 좋아",
-        "I: Z-Voig, [Zem](Ram)": "배고픈데 겉으론 참는 중"
+        "I {Log.m:Voig} > (Ram.i:High), [Zem.a.Fixc] ; Log": "내 기억속 결여된 상태가, 인과를 만들어 내면의 짜증 수치를 높게 만들었으니 외적인 태도는 평온하게 유지함. 이것은 데이터임."
     }
 }
