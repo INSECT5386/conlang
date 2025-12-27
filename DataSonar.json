@@ -5,7 +5,8 @@
     },
     "T": {
         "type": "slot tag",
-        "meaning": "시간 / 흐름"
+        "meaning": "시간 / 흐름",
+        "example": "T-1400 -> 14시00분(절대 시간), T-p -> 과거, T-f -> 미래, T-n -> 현재, T-flow -> 진행형"
     },
     "Kas": {
         "type": "slot tag",
