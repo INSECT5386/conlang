@@ -120,7 +120,7 @@ class SentenceEncoder(Model):
         scores = tf.cast(self.attn_pool(h), tf.float32)
         scores = tf.where(mask[..., tf.newaxis] == 0, -1e9, scores)
         scores = tf.nn.softmax(scores, axis=1)
-
+        scores = tf.cast(scores, h.dtype)
         pooled = tf.reduce_sum(h * scores, axis=1)
         return tf.cast(pooled, tf.float32)
 
