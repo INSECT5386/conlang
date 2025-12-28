@@ -27,10 +27,7 @@ if not os.path.exists(TOKENIZER_PATH):
         "https://huggingface.co/datasets/OpenLab-NLP/ko-corpus/resolve/main/bpe.model?download=true",TOKENIZER_PATH
     ) 
 # =========================
-# 설정
-# =========================
-TOKENIZER_PATH = "bpe.model"
-DATA_PATH = "shuffled_corpus.txt"
+
 MAX_LEN = 384
 EMBED_DIM = 512
 LATENT_DIM = 512
