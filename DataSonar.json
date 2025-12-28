@@ -185,8 +185,18 @@
         }
     },
     "Certainy_Tags": {
-        "Fixc": "확정된, 변하지 않는, 진리",
-        "Fluc": "가변적인, 불확실한, 추측"
+        "Fixc": {
+            "meaning": "확정된, 변하지 않는, 진리",
+            "pronunciation": {
+                "Fixc": "Fiksk/픽스크"
+            }
+        },
+        "Fluc": {
+            "meaning": "가변적인, 불확실한, 추측",
+            "pronunciation": {
+                "Fluc": "Fluk/플루크"
+            }
+        }
     },
     "fitr": {
         "type": "filter tag",
