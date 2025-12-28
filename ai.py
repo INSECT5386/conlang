@@ -5,6 +5,27 @@ from tensorflow.keras import layers, Model
 import sentencepiece as spm
 from tensorflow.keras import mixed_precision
 
+DATA_PATH = "corpus.txt"
+TOKENIZER_PATH = "ko_unigram.model"
+
+def download_file(url, save_path):
+    r = requests.get(url, stream=True)
+    r.raise_for_status()
+    with open(save_path, "wb") as f:
+        for chunk in r.iter_content(8192*2):
+            f.write(chunk)
+    print(f"✅ {save_path} 저장됨")
+
+if not os.path.exists(DATA_PATH):
+    download_file(
+        "https://huggingface.co/datasets/OpenLab-NLP/ko-corpus/resolve/main/shuffled_corpus%20(1).txt?download=true",
+        DATA_PATH
+    )
+
+if not os.path.exists(TOKENIZER_PATH):
+    download_file(
+        "https://huggingface.co/datasets/OpenLab-NLP/ko-corpus/resolve/main/bpe.model?download=true",TOKENIZER_PATH
+    ) 
 # =========================
 # 설정
 # =========================
