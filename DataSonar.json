@@ -1,202 +1,80 @@
 {
     "Z": {
         "type": "slot tag",
-        "meaning": "현재 상황 / 현상",
-        "pronunciation": {
-            "Z": "Ze / 제"
-        }
+        "meaning": "현재 상황 / 현상"
     },
     "T": {
         "type": "slot tag",
         "meaning": "시간 / 흐름",
         "example": "T-1400 -> 14시00분(절대 시간), T-p -> 과거, T-f -> 미래, T-n -> 현재, T-flow -> 진행형, T-dur:3h -> 3시간 동안 지속, T-inf -> 영구적 상태"
-        "pronunciation": {
-            "T": "Te / 테",
-            "T-1234": "Te 1234",
-            "T-p": "tep / 테프",
-            "T-f": "teh / 테흐",
-            "T-n": "ten / 테느",
-            "T-flow": "Te flow / 테 플로",
-            "T-dur:": "Te dur / 테 두르",
-            "T-inf": "Te inf / 테 인흐"
-        }
     },
     "K": {
         "type": "slot tag",
-        "meaning": "원인 / 전제",
-        "pronunciation": {
-            "K": "Ke / 케"
-        }
+        "meaning": "원인 / 전제"
     },
     "F": {
         "type": "slot tag",
-        "meaning": "결과 / 작용",
-        "pronunciation": {
-            "F": "He / 헤"
-        }
+        "meaning": "결과 / 작용"
     },
     "N": {
         "type": "slot tag",
-        "meaning": "생각 / 가치 판단",
-        "pronunciation": {
-            "N": "Ne / 네"
-        }
+        "meaning": "생각 / 가치 판단"
     },
     "I": {
         "type": "id tag",
-        "meaning": "화자 (나)",
-        "pronunciation": {
-            "I": "I / 아이"
-        }
+        "meaning": "화자 (나)"
     },
     "Y": {
         "type": "id tag",
-        "meaning": "청자 (너)",
-        "pronunciation": {
-            "Y": "Yu / 유"
-        }
+        "meaning": "청자 (너)"
     },
     "X": {
         "type": "id tag",
-        "meaning": "제3자/외부 객체",
-        "pronunciation": {
-            "X": "Xe / 쎄"
-        }
+        "meaning": "제3자/외부 객체"
     },
     "Logic_Gates": {
-        ">": {
-            "meaning": "인과관계의 흐름 (A 때문에 B가 됨).",
-            "pronunciation": {
-                ">": "ka / 카"
-            }
-        },
-        "<>": {
-            "meaning": "상호 영향 (A와 B가 서로 주고받음)",
-            "pronunciation": {
-                "<>": "aka / 아카"
-            }
-        },
-        "~>": {
-            "meaning": "지연된 인과 (A가 시간이 흐른 뒤 B를 유발함)",
-            "pronunciation": {
-                "~>": "e-ka / 멜카"
-            }
-        },
-        "|": {
-            "meaning": "a 혹은 b 중 하나. 예시: A|B",
-            "pronunciation": {
-                "|": "li"
-            }
-        },
-        "=": {
-            "meaning": "동시 발생 (A와 B가 동시에 일어남)",
-            "pronunciation": {
-                "=": "el / 엘"
-            }
-        },
+        ">": "인과관계의 흐름 (A 때문에 B가 됨).",
+        "<>": "상호 영향 (A와 B가 서로 주고받음)",
+        "~>": "지연된 인과 (A가 시간이 흐른 뒤 B를 유발함)",
+        "|": "a 혹은 b 중 하나. 예시: A|B",
+        "=": "동시 발생 (A와 B가 동시에 일어남).",
         "!": "즉각적인 대응이 필요한 데이터 (경고/위험).",
         "?": "데이터 확인 요청 (질문).",
         ",": "문장 끊기와 동시에 병렬",
         ";": "이 데이터가 어떤 목적으로 전송되었는지 '꼬리표'를 붙임",
-        "~": {
-            "meaning": "특정 태크 앞에 붙여 '~가 아니다', '~이 없다'를 표현",
-            "pronunciation": {
-                "~": "en / 엔"
-            }
-        }
+        "~": "특정 태크 앞에 붙여 '~가 아니다', '~이 없다'를 표현."
     },
     "Vector_Tags": {
-        "+": {
-            "meaning": "확장, 상승, 강화",
-            "pronunciation": {
-                "+": "pye / 폐"
-            }
-        },
-        "/": {
-            "meaning": "축소, 하락, 약화",
-            "pronunciation": {
-                "/": "mye / 몌"
-            }
-        },
-        "Rev": {
-            "meaning": "반전, 모순, 거부",
-            "pronunciation": {
-                "Rev": "Rev / 레브"
-            }
-        },
-        "Vag": {
-            "meaning": "설명하기 힘든 모호한 상태",
-            "pronunciation": {
-                "Vag": "Vag / 바그"
-        }
+        "+": "확장, 상승, 강화",
+        "/": "축소, 하락, 약화",
+        "Rev": "반전, 모순, 거부",
+        "Vag": "설명하기 힘든 모호한 상태"
     },
     "Vector_Suffix_Extension": {
         ".d": {
             "meaning": "지속성 (Durability)",
             "setting": "d는 1부터 5까지의 수를 가짐. 10분 이하 지속 -> 1, 10분 이상 30분 이하 지속 -> 2, 1시간 이하 30분 이상 지속 -> 3, 3시간 이하 1시간 이상 지속 -> 4, 3시간 이상 지속 -> 5",
-            "example": "Ram+.d5 -> 고강도 분노가 매우 오래 지속됨",
-            "pronunciation": {
-                ".d": "do / 도"
-            }
+            "example": "Ram+.d5 -> 고강도 분노가 매우 오래 지속됨"
         },
         ".v": {
             "meaning": "변동성 (Volatility)",
             "setting": "v는 1부터 5까지의 수를 가짐. 1은 '안정적이게', 2는 '살짝 불안하게', 3은 '불안하게', 4는 '빠르게', 5는 '매우 빠르게'로 의미가 매핑됨",
-            "example": "Zem/.v4 -> 평온함이 빠르게하게 요동치며 하락함",
-            "pronunciation": {
-                ".v": "vo / 보"
-            }
+            "example": "Zem/.v4 -> 평온함이 빠르게하게 요동치며 하락함"
         },
         ".t": {
             "meaning": "대상 지정 (Target)",
-            "example": "Ram.i.t:Y -> 너를 향한 짜증",
-            "pronunciation": {
-                ".t": "to / 토"
-            }
+            "example": "Ram.i.t:Y -> 너를 향한 짜증"
         }
     },
     "Scope_Tags": {
-        "()": {
-            "meaning": "내부, 본질, 비공개 데이터 (내면의 생각)",
-            "pronunciation": {
-                "(": "ol/올",
-                ")": "lo/로"
-            }
-        },
-        "[]": {
-            "meaning": "외부, 표면, 공개 데이터 (겉으로 드러난 행동)",
-            "pronunciation": {
-                "[": "om/옴",
-                "]": "mo/모"
-            }
-        },
-        "Mids": {
-            "meaning": "경계, 상호작용 지점",
-            "pronunciation": {
-                "Mids": "미드"
-            }
-        },
-        "{}": {
-            "meaning": "논리적 그룹핑 (연산 우선순위 지정)",
-            "pronunciation": {
-                "{": "og/옥",
-                "}": "go/고"
-            }
-        }
+        "()": "내부, 본질, 비공개 데이터 (내면의 생각)",
+        "[]": "외부, 표면, 공개 데이터 (겉으로 드러난 행동)",
+        "Mids": "경계, 상호작용 지점",
+        "{}": "논리적 그룹핑 (연산 우선순위 지정)"
     },
     "Certainy_Tags": {
-        "Fixc": {
-            "meaning": "확정된, 변하지 않는, 진리",
-            "pronunciation": {
-                "Fixc": "Fiksk/픽스크"
-            }
-        },
-        "Fluc": {
-            "meaning": "가변적인, 불확실한, 추측",
-            "pronunciation": {
-                "Fluc": "Fluk/플루크"
-            }
-        }
+        "Fixc": "확정된, 변하지 않는, 진리",
+        "Fluc": "가변적인, 불확실한, 추측"
     },
     "fitr": {
         "type": "filter tag",
@@ -207,24 +85,9 @@
         }
     },
     "Humanity_Tags": {
-        "Hrt": {
-            "meaning": "논리적 근거는 없는 데 그냥 그렇게 느껴지는 것.",
-            "pronunciation": {
-                "Hrt": "Hart/하트"
-            }
-        },
-        "Sola": {
-            "meaning": "너의 상태를 나도 함께 느끼겠다",
-            "pronunciation": {
-                "Sola": "Sol/솔"
-            }
-        },
-        "Liwd": {
-            "meaning": "가능성과 상상",
-            "pronunciation": {
-                "Liwd": "Liw/리우"
-            }
-        }
+        "Hrt": "논리적 근거는 없는 데 그냥 그렇게 느껴지는 것.",
+        "Sola": "너의 상태를 나도 함께 느끼겠다",
+        "Liwd": "가능성과 상상"
     },
     "Primary_Categories": {
         "Voig": {
