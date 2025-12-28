@@ -207,9 +207,24 @@
         }
     },
     "Humanity_Tags": {
-        "Hrt": "논리적 근거는 없는 데 그냥 그렇게 느껴지는 것.",
-        "Sola": "너의 상태를 나도 함께 느끼겠다",
-        "Liwd": "가능성과 상상"
+        "Hrt": {
+            "meaning": "논리적 근거는 없는 데 그냥 그렇게 느껴지는 것.",
+            "pronunciation": {
+                "Hrt": "Hart/하트"
+            }
+        },
+        "Sola": {
+            "meaning": "너의 상태를 나도 함께 느끼겠다",
+            "pronunciation": {
+                "Sola": "Sol/솔"
+            }
+        },
+        "Liwd": {
+            "meaning": "가능성과 상상",
+            "pronunciation": {
+                "Liwd": "Liw/리우"
+            }
+        }
     },
     "Primary_Categories": {
         "Voig": {
