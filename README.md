@@ -1,3 +1,4 @@
+```json
 {
     "Z": {
         "type": "slot tag",
