@@ -1,36 +1,67 @@
 {
     "Z": {
         "type": "slot tag",
-        "meaning": "현재 상황 / 현상"
+        "meaning": "현재 상황 / 현상",
+        "pronunciation": {
+            "Z": "Ze / 제"
+        }
     },
     "T": {
         "type": "slot tag",
         "meaning": "시간 / 흐름",
         "example": "T-1400 -> 14시00분(절대 시간), T-p -> 과거, T-f -> 미래, T-n -> 현재, T-flow -> 진행형, T-dur:3h -> 3시간 동안 지속, T-inf -> 영구적 상태"
+        "pronunciation": {
+            "T": "Te / 테",
+            "T-1234": "Te 1234",
+            "T-p": "tep / 테프",
+            "T-f": "teh / 테흐",
+            "T-n": "ten / 테느",
+            "T-flow": "Te flow / 테 플로",
+            "T-dur:": "Te dur / 테 두르",
+            "T-inf": "Te inf / 테 인흐"
+        }
     },
     "K": {
         "type": "slot tag",
-        "meaning": "원인 / 전제"
+        "meaning": "원인 / 전제",
+        "pronunciation": {
+            "K": "Ke / 케"
+        }
     },
     "F": {
         "type": "slot tag",
-        "meaning": "결과 / 작용"
+        "meaning": "결과 / 작용",
+        "pronunciation": {
+            "F": "He / 헤"
+        }
     },
     "N": {
         "type": "slot tag",
-        "meaning": "생각 / 가치 판단"
+        "meaning": "생각 / 가치 판단",
+        "pronunciation": {
+            "N": "Ne / 네"
+        }
     },
     "I": {
         "type": "id tag",
-        "meaning": "화자 (나)"
+        "meaning": "화자 (나)",
+        "pronunciation": {
+            "I": "I / 아이"
+        }
     },
     "Y": {
         "type": "id tag",
-        "meaning": "청자 (너)"
+        "meaning": "청자 (너)",
+        "pronunciation": {
+            "Y": "Yu / 유"
+        }
     },
     "X": {
         "type": "id tag",
-        "meaning": "제3자/외부 객체"
+        "meaning": "제3자/외부 객체",
+        "pronunciation": {
+            "X": "Xe / 쎄"
+        }
     },
     "Logic_Gates": {
         ">": "인과관계의 흐름 (A 때문에 B가 됨).",
