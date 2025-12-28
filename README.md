@@ -1,4 +1,3 @@
-# 인공어 체계 (Artificial Language System) 명세서
 
 ## 1. 슬롯 태그 (Slot Tags)
 * **Z**: 현재 상황 / 현상
