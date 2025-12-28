@@ -47,7 +47,7 @@
     "Vector_Tags": {
         "+": "확장, 상승, 강화",
         "/": "축소, 하락, 약화",
-        "#": "반전, 모순, 거부",
+        "_": "반전, 모순, 거부",
         "*": "설명하기 힘든 모호한 상태"
     },
     "Vector_Suffix_Extension": {
@@ -83,8 +83,8 @@
         "type": "filter tag",
         "setting": "이 인공어의 다른 품사들을 묶어서 하나의 변수로 만들고 그 변수가 필터 역할을 한다",
         "standard_library": {
-            "@Burnout": "{T:flow + Kg:High + (Rm+)}",
-            "@Flow": "{T:flow + Lg.c + (Zm.f+)}"
+            "#Burnout": "{T:flow + Kg:High + (Rm+)}",
+            "#Flow": "{T:flow + Lg.c + (Zm.f+)}"
         }
     },
     "Humanity_Tags": {
