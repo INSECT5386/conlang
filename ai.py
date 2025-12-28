@@ -187,16 +187,21 @@ def build_simsiam_model(vocab_size):
     return Model(inputs=[input1, input2], outputs=out), encoder
 
 def simsiam_loss(y_true, y_pred):
-    p1, p2, z1, z2 = y_pred[:,0], y_pred[:,1], y_pred[:,2], y_pred[:,3]
+    # y_pred shape: (batch_size, 4, latent_dim)
+    p1 = y_pred[:, 0, :]
+    p2 = y_pred[:, 1, :]
+    z1 = y_pred[:, 2, :]
+    z2 = y_pred[:, 3, :]
 
     def D(p, z):
-        # Stop-gradient: SimSiam의 핵심 (Collapse 방지)
-        z = tf.stop_gradient(z)
         p = tf.math.l2_normalize(p, axis=1)
         z = tf.math.l2_normalize(z, axis=1)
-        return -tf.reduce_mean(tf.reduce_sum(p * z, axis=1))
+        # stop_gradient는 z에만 적용 (SimSiam 논문 핵심)
+        return -tf.reduce_mean(tf.reduce_sum(p * tf.stop_gradient(z), axis=1))
 
-    return (D(p1, z2) + D(p2, z1)) * 0.5
+    # 최종 Loss는 두 방향의 평균
+    loss = (D(p1, z2) + D(p2, z1)) * 0.5
+    return loss
 
 # =========================
 # Training
@@ -206,7 +211,7 @@ with strategy.scope():
     optimizer = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
     model.compile(optimizer=optimizer, loss=simsiam_loss)
 
-steps_per_epoch = 1000 # 데이터량에 따라 조정
+steps_per_epoch = 36757266 // BATCH_SIZE
 model.fit(ds, epochs=EPOCHS, steps_per_epoch=steps_per_epoch)
 
 encoder.save_weights("simsiam_encoder.weights.h5")
