@@ -76,10 +76,29 @@
         "~": "특정 태크 앞에 붙여 '~가 아니다', '~이 없다'를 표현."
     },
     "Vector_Tags": {
-        "+": "확장, 상승, 강화",
-        "/": "축소, 하락, 약화",
-        "Rev": "반전, 모순, 거부",
-        "Vag": "설명하기 힘든 모호한 상태"
+        "+": {
+            "meaning": "확장, 상승, 강화",
+            "pronunciation": {
+                "+": "pye / 폐"
+            }
+        },
+        "/": {
+            "meaning": "축소, 하락, 약화",
+            "pronunciation": {
+                "/": "mye / 몌"
+            }
+        },
+        "Rev": {
+            "meaning": "반전, 모순, 거부",
+            "pronunciation": {
+                "Rev": "Rev / 레브"
+            }
+        },
+        "Vag": {
+            "meaning": "설명하기 힘든 모호한 상태",
+            "pronunciation": {
+                "Vag": "Vag / 바그"
+        }
     },
     "Vector_Suffix_Extension": {
         ".d": {
