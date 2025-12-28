@@ -142,6 +142,9 @@ class Predictor(layers.Layer):
 # =========================
 # SimSiam Wrapper & Loss
 # =========================
+# =========================
+# SimSiam Wrapper & Loss
+# =========================
 def build_simsiam_model(vocab_size):
     encoder = SentenceEncoder(vocab_size)
     predictor = Predictor()
@@ -155,8 +158,14 @@ def build_simsiam_model(vocab_size):
     p1 = predictor(z1)
     p2 = predictor(z2)
     
-    # 학습 시 loss 계산을 위해 stack하여 출력
-    out = tf.stack([p1, p2, z1, z2], axis=1) 
+    # 🔥 수정 포인트: tf.stack을 Lambda 레이어로 감싸서 Keras 연산으로 변환
+    # Lambda 레이어는 KerasTensor를 실제 연산이 가능한 형태로 처리해줍니다.
+    def stack_outputs(tensors):
+        import tensorflow as tf
+        return tf.stack(tensors, axis=1)
+
+    out = layers.Lambda(stack_outputs, name="simsiam_out")([p1, p2, z1, z2])
+    
     return Model(inputs=[input1, input2], outputs=out), encoder
 
 def simsiam_loss(y_true, y_pred):
