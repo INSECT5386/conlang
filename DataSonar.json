@@ -73,6 +73,7 @@
     "Primary_Categories": {
         "Vg": "결핍/필요 (bVg:육체, mVg:정신, rVg:물리)",
         "Lg": "인지/지식 (mLg:기억, iLg:정보입력, cLg:추론, vLg:확인완료)",
+        "Ig": "정보 및 데이터 (dIg : 수치 데이터, tIg: 텍스트/언어 정보, mIg: 미디어/시작 정보",
         "Kg": "충돌/대립, 오류",
         "Sg": "해소/획득 (bSg:육체, mSg:정신, rSg:물리)",
         "Dg": "위계/상급자",
@@ -86,6 +87,24 @@
                 "pAg": "물리적 행동 (Physical Action)",
                 "vAg": "언어적 발화 (Verbal Action)",
                 "mAg": "조작 및 제어 (Manipulation)"
+            }
+        },
+        "Eg": {
+            "meaning": "환경/객체",
+            "derivation": {
+                "Eg:loc": "위치/장소",
+                "Eg:obj": "사물/도구",
+                "Eg:env": "환경 조건(날씨, 온도, 조명 등)",
+                "Eg:sys": "시스템/프로세스 (기계적 절차)"
+            }
+        },
+        "Pg": {
+            "meaning": "실행/계획",
+            "derivation":{
+                "Pg.rdy": "준비/대기",
+                "Pg:run": "실행 중",
+                "Pg:end": "완료/종료",
+                "Pg:hld": "일시 중단/보류"
             }
         },
         "Vl": "가치 존재",
