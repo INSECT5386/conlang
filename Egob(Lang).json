@@ -61,7 +61,10 @@
         "Xu": "설명하기 힘든 모호한 상태 / Xu.쑤",
         "Su": "적극적, 물리적 강화 / Su.수",
         "Ju": "반복, 루프. /Jyu.쥬",
-        "Hu": "효율적, 기계적 수행 / Hu.후"
+        "Hu": "효율적, 기계적 수행 / Hu.후",
+        "Ru": "거칠음/불규칙",
+        "Lu": "투명함/명확함",
+        "Vu": "취약함/불안정"
     },
     "Number": {
         "example": "T1412 -> 트 외세외테 / Ra50Pu -> 라 네제푸",
@@ -102,8 +105,32 @@
         "Dg": "위계/상급자",
         "Suba": "하위/객체",
         "Pa": "규칙/계약",
-        "Za": "평온/수용 (Zas:휴식, Zaa(Zoe), Zaf:충족)",
+        "Za": "평온/수용 (Zas:휴식, Zaa(Zoe) 동의, Zaf:충족)",
         "Ra": "분노/거부 (Rai:짜증, Raf:공포, Ras:슬픔)",
+        "Coa": "협력/협동",
+        "Ata": "조언/지도",
+        "Ta": "신뢰/유대",
+        "Exa": "교환/거래",
+        "Fa": {
+            "meaning": "해상도",
+            "derivation":{
+                "Fam": "집중"
+            }
+        },
+        "Ena": {
+            "meaning": "에너지",
+            "derivation":{
+                "Enab": "활력"
+            }
+        },
+        "Mita": {
+            "meaning": "의지",
+            "derivation": {
+                "Mitam": "도덕",
+                "Mitat": "의도/목적",
+                "Mitar": "의욕/사기"
+            }
+        },
         "Aca": {
             "meaning": "행위 / 행동",
             "derivation": {
@@ -115,7 +142,79 @@
         "Eg": {
             "meaning": "환경/객체",
             "derivation": {
-                "Egoc": "위치/장소 / Egoc.에곡",
+                "Ec": {
+                    "meaning": "위치/장소 / Ec.에곡",
+                    "derivation": {
+                        "Eco": {
+                            "meaning": "장애물/방해 요소"
+                        },
+                        "Ecu": {
+                            "meaning": "안전 구역/안전 시설",
+                            "derivation": {
+                                "Ecuo": "집",
+                                "Ecup": "경찰서",
+                                "Ecuf": "소방서"
+                            }
+                        },
+                        "Eca": {
+                            "meaning": "교육 시설",
+                            "derivation": {
+                                "Ecas": {
+                                    "meaning": "학교",
+                                    "derivation":{
+                                        "Secas": "초등학교",
+                                        "Mecas": "중학교",
+                                        "Hecas": "고등학교",
+                                        "Uecas": "대학교",
+                                        "Cecas": "사립학교"
+                                    }
+                                },
+                                "Ecaa": {
+                                    "meaning": "학원",
+                                    "derivation":{
+                                        "Uecaa": "대학원"
+                                    }
+                                },
+                                "Ecata": "대학교"
+                            }
+                        },
+                        "Ece": {
+                            "meaning": "공공 시설",
+                            "derivation":{
+                                "Eceg": "공원",
+                                "Eceb": "벤치/정자",
+                                "Ecep": "놀이터",
+                                "Ecegb": "놀이공원 / Ekyegb.에켹브",
+                                "Eceu": "산책로",
+                                "Ecenv": "화장실 / Ekyenv.에켼브"
+                            }
+                        },
+                        "Ecei": {
+                            "meaning": "산업 시설",
+                            "derivation":{
+                                "Eceic": "회사",
+                                "Eceif": "생산 시설/공장",
+                                "Eceir": "사무실"
+                            }
+                        },
+                        "Ecea": {
+                            "meaning": "상업 시설",
+                            "derivation": {
+                                "Eceam": "마트/시장",
+                                "Eceas": "상점/편의점",
+                                "Ecear": "식당",
+                                "Eceaf": "카페"
+                            }
+                        },
+                        "Echi": {
+                            "meaning": "의료/복지 시설",
+                            "derivation":{
+                                "Echip": "병원",
+                                "Echiu": "복지관/요양 시설"
+                            }
+                        }
+                    }
+                },
                 "Egob": "사물/도구 / Egob.에곱",
                 "Egev": "환경 조건(날씨, 온도, 조명 등) / Egev.에겝",
                 "Exi": "시스템/프로세스 (기계적 절차) / Egsy.엑시"
